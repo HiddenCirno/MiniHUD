@@ -1,0 +1,22 @@
+{
+    "ArmorHUD":true,
+    "AmmoHUD":true,
+    "ItemColor":true,
+    "LegendKey":true,
+    "ItemPrice":true,
+    "PriceHUD":true,
+    "QuestRequire":true,
+    "ExamineByDefault":false,
+    "MainQuest":true,
+    "HideoutInfo":true,
+    "NoHideReward":true,
+    "QuestItemInfo":true,
+    "QuestLLRDisplay":true,
+    "QuestUnlock":true,
+    "QuestLevelNeed":true,
+    "QuestItemDisplay":true,
+    "GunsmithHelper":true,
+    "ResetName":true,
+    "NoHideConditions":true,
+    "RagfairPrice":true
+}

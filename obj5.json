@@ -1,0 +1,156 @@
+{
+    "枪匠10": {
+        "key": "枪匠10",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 10\n【换行】任务改装目标: AK-105 5.45x39 突击步枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于800米, 人机功效至少38, 后坐力总和小于500, 要有60发弹匣, 高度至少2格, 长度至少4格, 要有消音器。"
+    },
+    "枪匠11": {
+        "key": "枪匠11",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 11\n【换行】任务改装目标: TDI Kriss Vector Gen.2 9x19 冲锋枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于300米, 人机功效至少50, 后坐力总和小于200, 要有31发弹匣, 要有消音器, 必须装有KRISS Vector Mk.5 模块化导轨, TD铝合金垂直握把。"
+    },
+    "枪匠8": {
+        "key": "枪匠8",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 8\n【换行】任务改装目标: AKS-74N 5.45x39 突击步枪\n【换行】任务改装要求: 耐久大于60, 人机功效至少65, 后坐力总和小于250, 要有30发弹匣, 高度至少2格, 长度至少5格, 必须装有Zenit DTK-1 7.62x39 & 5.45x39 AK膛口制退补偿器 , Zenit B-33 AK-74防尘盖, Zenit RK-3 AK手枪式握把, Zenit PT-3 \"Klassika\"枪托, 30发АК-12 5.45x39兼容弹匣, B-30 前护木加 B-31С 导轨架, Zenit RK-0前握把, Zenit 2IRS Klesch 手电激光指示器。"
+    },
+    "枪匠6": {
+        "key": "枪匠6",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 6\n【换行】任务改装目标: AKM 7.62×39 突击步枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于800米, 人机功效至少40, 后坐力总和小于350, 要有消音器, 必须装有Fortis Shift战术握把, Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣。"
+    },
+    "枪匠7": {
+        "key": "枪匠7",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 7\n【换行】任务改装目标: 柯尔特 M4A1 5.56x45 卡宾枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于800米, 人机功效至少47, 后坐力总和小于300, 要有60发弹匣, 要有消音器。"
+    },
+    "枪匠12": {
+        "key": "枪匠12",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 12\n【换行】任务改装目标: SIG MPX 9x19 冲锋枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于300米, 人机功效至少52, 后坐力总和小于180, 必须装有AR-15手枪式镂空握把, Annihilator 7.62x39、5.56x45、9毫米 AR15消焰器, LAS/TAC 2战术手电。"
+    },
+    "枪匠13": {
+        "key": "枪匠13",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 13\n【换行】任务改装目标: 雷明顿 R11 RSASS 7.62x51 精确射手步枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于1500米, 人机功效至少26, 后坐力总和小于300, 要有消音器。"
+    },
+    "枪匠14": {
+        "key": "枪匠14",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 14\n【换行】任务改装目标: HK 416A5 5.56x45 突击步枪\n【换行】任务改装要求: 耐久大于80, 有效射程大于300米, 人机功效至少60, 后坐力总和小于250, 要有30发弹匣, 必须装有Surefire SOCOM556-RC2 5.56x45消音器, Magpul RVG握把 FDE, Eotech EXPS3全息瞄准镜, Magpul MOE AR-15手枪式握把 FDE, UBR GEN2 FDE枪托, LA-5战术设备。"
+    },
+    "枪匠15": {
+        "key": "枪匠15",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 15\n【换行】任务改装目标: AS “巨浪” 9x39 特种突击步枪\n【换行】任务改装要求: 耐久大于60, 人机功效至少33, 后坐力总和小于200, 要有30发弹匣, 必须装有Fab Defence GL Shock枪托, AN/PEQ-15战术设备, NSPU-M夜视瞄准镜。"
+    },
+    "枪匠1": {
+        "key": "枪匠1",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 1\n【换行】任务改装目标: MP-133 12铅径 霰弹枪\n【换行】任务改装要求: 耐久大于60, 人机功效至少47, 后坐力总和小于850, 要有5发弹匣, 高度不能超过1格, 长度最多4格, 要有组合式战术设备。"
+    },
+    "枪匠2": {
+        "key": "枪匠2",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 2\n【换行】任务改装目标: AKS-74U 5.45x39 短突击步枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于100米, 人机功效至少58, 后坐力总和小于550, 要有60发弹匣, 高度不能超过2格, 长度最多3格, 必须装有B-11 AKS-74U护木。"
+    },
+    "枪匠3": {
+        "key": "枪匠3",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 3\n【换行】任务改装目标: HK MP5N 9x19 冲锋枪（海军型）\n【换行】任务改装要求: 耐久大于60, 有效射程大于200米, 人机功效至少45, 后坐力总和小于200, 要有50发弹匣, 要有消音器, 组合式战术设备。"
+    },
+    "枪匠4": {
+        "key": "枪匠4",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 4\n【换行】任务改装目标: 西蒙诺夫 OP-SKS 7.62x39 卡宾枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于600米, 人机功效至少35, 后坐力总和小于350, 要有20发弹匣, 要有消音器。"
+    },
+    "枪匠5": {
+        "key": "枪匠5",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 5\n【换行】任务改装目标: 雷明顿Model 870 12铅径 霰弹枪\n【换行】任务改装要求: 耐久大于60, 人机功效至少60, 后坐力总和小于500, 要有组合式战术设备, 前握把, 必须装有Magpul MOE M870下护木。"
+    },
+    "枪匠9": {
+        "key": "枪匠9",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 9\n【换行】任务改装目标: P226R 9x19手枪\n【换行】任务改装要求: 耐久大于60, 人机功效至少80, 后坐力总和小于610, 要有20发弹匣, 要有组合式战术设备, 必须装有西格-绍尔Elite P226木制手枪握把, Sig P226 Stainless Elite手枪套筒。"
+    },
+    "枪匠16": {
+        "key": "枪匠16",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 16\n【换行】任务改装目标: DVL-10 “破坏者” 7.62x51 狙击步枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于2000米, 人机功效至少40, 后坐力总和小于400, 要有组合式战术设备。"
+    },
+    "枪匠17": {
+        "key": "枪匠17",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 17\n【换行】任务改装目标: AK-102 5.56x45 突击步枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于800米, 人机功效至少70, 后坐力总和小于210, 高度不能超过2格, 长度最多4格, 必须装有Ferfrans “CRD” 5.56x45, Arsenal CWP 30发SLR-106 5.56x45兼容弹匣, Magpul AFG握把 OD, Zenit 2U Klesch 战术手电, Izhmash RPK-16缓冲管。"
+    },
+    "枪匠18": {
+        "key": "枪匠18",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 18\n【换行】任务改装目标: AKMN 7.62x39 突击步枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于600米, 人机功效至少50, 后坐力总和小于300, 必须装有Magpul MOE AKM/AK护木（Black）, Magpul MOE AK手枪式握把, Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣, Magpul M-LOK AFG战术握把, Rotor 43 7.62x39膛口制退器, Eotech HHS-1瞄具, Zhukov-S AK枪托。"
+    },
+    "枪匠19": {
+        "key": "枪匠19",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 19\n【换行】任务改装目标: 德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于1000米, 人机功效至少15, 后坐力总和小于400, 要有10发弹匣, 要有消音器, 必须装有UBR GEN2 Black枪托, SAG MK1 Freefloat SVD框架, Magpul MOE AK手枪式握把, March Tactical 3-24x42光学瞄准镜 FFP。"
+    },
+    "枪匠20": {
+        "key": "枪匠20",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 20\n【换行】任务改装目标: 春田 M1A 7.62x51 精确射手步枪\n【换行】任务改装要求: 耐久大于60, 人机功效至少20, 后坐力总和小于400, 要有20发弹匣, 必须装有M14 Ultimak M8顶盖, Nightforce ATACR 7-35x56步枪瞄准镜, Aimpoint Micro T-1反射式瞄具, Holosun LS321战术设备。"
+    },
+    "枪匠21": {
+        "key": "枪匠21",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 21\n【换行】任务改装目标: 雷明顿Model 700 7.62x51 狙击步枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于1500米, 人机功效至少35, 后坐力总和小于400, 要有5发弹匣, 必须装有M700 AB Arms MOD*X GEN 3枪托, M700 AB Arms MOD*X GEN 3 KeyMod护木, M700 AB Arms MOD*X基座。\n【换行】任务改装目标: 柯尔特 M1911A1 .45 ACP 手枪\n【换行】任务改装要求: 耐久大于60, 有效射程大于200米, 人机功效至少75, 后坐力总和小于750, 要有7发弹匣, 要有组合式战术设备, 必须装有Pachmayr “美国传奇” #423 M1911A1 握把, M1911 Anarchy Outdoors .45 ACP膛口制退器。"
+    },
+    "枪匠22": {
+        "key": "枪匠22",
+        "matchType": "full",
+        "matchPlace": "3",
+        "priority": 0,
+        "value": "枪匠 - 22\n【换行】任务改装目标: 柯尔特 M4A1 5.56x45 卡宾枪\n【换行】任务改装要求: 耐久大于60, 人机功效至少40, 后坐力总和小于250, 要有60发弹匣, 必须装有KAC QDSS NT-4 FDE 5.56x45消音器, MK 10 AR-15兼容护木, Trijicon REAP-IR热成像步枪瞄准镜。"
+    }
+}
