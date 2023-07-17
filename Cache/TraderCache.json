@@ -1,0 +1,246 @@
+{
+    "54cb50c76803fa8b248b4571": {
+        "ID": "54cb50c76803fa8b248b4571",
+        "Name": "Prapor",
+        "count": 0.5,
+        "Category": [
+            "5422acb9af1c889c16000029",
+            "5485a8684bdc2da71d8b4567",
+            "543be6564bdc2df4348b4568",
+            "543be5664bdc2dd4348b4569",
+            "57864bb7245977548b3b66c2",
+            "57864ada245977548638de91",
+            "5d650c3e815116009f6201d2",
+            "590c745b86f7743cc433c5f2",
+            "5448e54d4bdc2dcc718b4568",
+            "5c99f98d86f7745c314214b3",
+            "5448fe124bdc2da5018b4567"
+        ]
+    },
+    "54cb57776803fa99248b456e": {
+        "ID": "54cb57776803fa99248b456e",
+        "Name": "Therapist",
+        "count": 0.63,
+        "Category": [
+            "543be5664bdc2dd4348b4569",
+            "543be6674bdc2df1348b4569",
+            "567849dd4bdc2d150f8b456e",
+            "543be5e94bdc2df1348b4568",
+            "5448eb774bdc2d0a728b4567",
+            "5795f317245977243854e041"
+        ]
+    },
+    "579dc571d53a0658a154fbec": {
+        "ID": "579dc571d53a0658a154fbec",
+        "Name": "Fence",
+        "count": 1.2,
+        "Category": []
+    },
+    "58330581ace78e27b8b10cee": {
+        "ID": "58330581ace78e27b8b10cee",
+        "Name": "Skier",
+        "count": 0.49,
+        "Category": [
+            "543be5f84bdc2dd4348b456a",
+            "5448e5284bdc2dcb718b4567",
+            "57864a3d24597754843f8721",
+            "57864a66245977548f04a81f",
+            "590c745b86f7743cc433c5f2",
+            "5422acb9af1c889c16000029",
+            "543be6564bdc2df4348b4568",
+            "5448fe124bdc2da5018b4567",
+            "5448f3a64bdc2d60728b456a",
+            "5485a8684bdc2da71d8b4567"
+        ]
+    },
+    "5935c25fb3acc3127c3d8cd9": {
+        "ID": "5935c25fb3acc3127c3d8cd9",
+        "Name": "Peacekeeper",
+        "count": 0.45,
+        "Category": [
+            "5448fe124bdc2da5018b4567",
+            "5422acb9af1c889c16000029",
+            "5485a8684bdc2da71d8b4567",
+            "5448ecbe4bdc2d60728b4568",
+            "57864a3d24597754843f8721",
+            "57864ee62459775490116fc1",
+            "57864a66245977548f04a81f",
+            "5c164d2286f774194c5e69fa",
+            "5447e0e74bdc2d3c308b4567",
+            "57bef4c42459772e8d35a53b"
+        ]
+    },
+    "5a7c2eca46aef81a7ca2145d": {
+        "ID": "5a7c2eca46aef81a7ca2145d",
+        "Name": "Mechanic",
+        "count": 0.56,
+        "Category": [
+            "5422acb9af1c889c16000029",
+            "5485a8684bdc2da71d8b4567",
+            "5448fe124bdc2da5018b4567",
+            "57864a66245977548f04a81f",
+            "57864ee62459775490116fc1",
+            "57864bb7245977548b3b66c2",
+            "5c164d2286f774194c5e69fa",
+            "5447e0e74bdc2d3c308b4567",
+            "616eb7aea207f41933308f46"
+        ]
+    },
+    "5ac3b934156ae10c4430e83c": {
+        "ID": "5ac3b934156ae10c4430e83c",
+        "Name": "Ragman",
+        "count": 0.62,
+        "Category": [
+            "543be5f84bdc2dd4348b456a",
+            "5795f317245977243854e041",
+            "5448e5284bdc2dcb718b4567",
+            "5448e53e4bdc2d60728b4567"
+        ]
+    },
+    "5c0647fdd443bc2504c2d371": {
+        "ID": "5c0647fdd443bc2504c2d371",
+        "Name": "Jaeger",
+        "count": 0.6,
+        "Category": [
+            "57864c8c245977548867e7f1",
+            "543be6674bdc2df1348b4569",
+            "543be5664bdc2dd4348b4569",
+            "57864ee62459775490116fc1",
+            "5447e1d04bdc2dff2f8b4567",
+            "5795f317245977243854e041",
+            "5671435f4bdc2d96058b4569",
+            "5448e53e4bdc2d60728b4567",
+            "5448e5284bdc2dcb718b4567",
+            "57864e4c24597754843f8723",
+            "57864ada245977548638de91",
+            "5447b6194bdc2d67278b4567",
+            "5447b6094bdc2dc3278b4567",
+            "5447b6254bdc2dc3278b4568"
+        ]
+    },
+    "638f541a29ffd1183d187f57": {
+        "ID": "638f541a29ffd1183d187f57",
+        "Name": "Lightkeeper",
+        "count": 1,
+        "Category": []
+    },
+    "DOC_TRADER": {
+        "ID": "DOC_TRADER",
+        "Name": "Gospozha",
+        "count": 0.56,
+        "Category": [
+            "5422acb9af1c889c16000029",
+            "5485a8684bdc2da71d8b4567",
+            "543be6564bdc2df4348b4568",
+            "543be5664bdc2dd4348b4569",
+            "57864bb7245977548b3b66c2",
+            "57864ada245977548638de91",
+            "5d650c3e815116009f6201d2",
+            "590c745b86f7743cc433c5f2",
+            "5448e54d4bdc2dcc718b4568",
+            "5c99f98d86f7745c314214b3",
+            "5448fe124bdc2da5018b4567"
+        ]
+    },
+    "allitemsonline": {
+        "ID": "allitemsonline",
+        "Name": "全物品列表",
+        "count": 0.56,
+        "Category": [
+            "543be5664bdc2dd4348b4569",
+            "543be5e94bdc2df1348b4568",
+            "543be6674bdc2df1348b4569",
+            "5448eb774bdc2d0a728b4567",
+            "5448ecbe4bdc2d60728b4568",
+            "5448f3ac4bdc2dce718b4569"
+        ]
+    },
+    "FutureLight": {
+        "ID": "FutureLight",
+        "Name": "未来之光",
+        "count": 0.56,
+        "Category": [
+            "543be5664bdc2dd4348b4569",
+            "543be5e94bdc2df1348b4568",
+            "543be6674bdc2df1348b4569",
+            "5448eb774bdc2d0a728b4567",
+            "5448ecbe4bdc2d60728b4568",
+            "5448f3ac4bdc2dce718b4569"
+        ]
+    },
+    "SimulationSystemTrader": {
+        "ID": "SimulationSystemTrader",
+        "Name": "SYSTEM",
+        "count": 0.56,
+        "Category": [
+            "543be5664bdc2dd4348b4569",
+            "543be5e94bdc2df1348b4568",
+            "543be6674bdc2df1348b4569",
+            "5448eb774bdc2d0a728b4567",
+            "5448ecbe4bdc2d60728b4568",
+            "5448f3ac4bdc2dce718b4569"
+        ]
+    },
+    "terragroup_specialist": {
+        "ID": "terragroup_specialist",
+        "Name": "NoName",
+        "count": 0.2,
+        "Category": [
+            "5661632d4bdc2d903d8b456b",
+            "5447e0e74bdc2d3c308b4567",
+            "543be5664bdc2dd4348b4569",
+            "5448e5284bdc2dcb718b4567",
+            "5448e53e4bdc2d60728b4567",
+            "5448fe124bdc2da5018b4567",
+            "543be5f84bdc2dd4348b456a",
+            "5422acb9af1c889c16000029",
+            "543be6674bdc2df1348b4569",
+            "567849dd4bdc2d150f8b456e",
+            "543be6564bdc2df4348b4568",
+            "5447e1d04bdc2dff2f8b4567",
+            "5448eb774bdc2d0a728b4567",
+            "5448ecbe4bdc2d60728b4568",
+            "616eb7aea207f41933308f46"
+        ]
+    },
+    "5a7c2eca46aef81a7ca2146d": {
+        "ID": "5a7c2eca46aef81a7ca2146d",
+        "Name": "神秘商人",
+        "count": 0.4,
+        "Category": []
+    },
+    "Persicaria": {
+        "ID": "Persicaria",
+        "Name": "千叶玲花",
+        "count": 0.56,
+        "Category": [
+            "543be5664bdc2dd4348b4569",
+            "543be5e94bdc2df1348b4568",
+            "543be6674bdc2df1348b4569",
+            "5448eb774bdc2d0a728b4567",
+            "5448ecbe4bdc2d60728b4568",
+            "5448f3ac4bdc2dce718b4569"
+        ]
+    },
+    "Polaris": {
+        "ID": "Polaris",
+        "Name": "Polaris",
+        "count": 0.56,
+        "Category": [
+            "543be5664bdc2dd4348b4569",
+            "543be5e94bdc2df1348b4568",
+            "543be6674bdc2df1348b4569",
+            "5448eb774bdc2d0a728b4567",
+            "5448ecbe4bdc2d60728b4568",
+            "5448f3ac4bdc2dce718b4569"
+        ]
+    },
+    "testtrader1": {
+        "ID": "testtrader1",
+        "Name": "TraderTest",
+        "count": 0.56,
+        "Category": [
+            "54009119af1c881c07000029"
+        ]
+    }
+}

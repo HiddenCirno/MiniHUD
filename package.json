@@ -1,10 +1,10 @@
 {
-    "name": "MiniHUD",
-    "version": "3.1.1",
+    "name": "MiniHUD-Reborn",
+    "version": "1.2.0",
     "main": "src/mod.js",
     "license": "VHIAccess",
     "author": "千叶玲花",
-    "akiVersion": "3.5.*",
+    "akiVersion": "3.5.0",
     "scripts": {
         "setup:environment": "npm i",
         "build:unzipped": "copyfiles -e \"./node_modules/**/*.*\" -e \"./dist/**/*.*\" -e \"./package-lock.json\" -e \"./tsconfig.json\" -e \"./README.txt\" -e \"./mod.code-workspace\" \"./**/*.*\" ./dist",

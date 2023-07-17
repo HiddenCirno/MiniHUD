@@ -1,0 +1,34 @@
+{
+    "Forced":[
+        {
+            "locationId": "(37.5982 7.1006 148.2643)",
+            "probability": 1,
+            "template": {
+                "Id": "(37.5982 7.1006 148.2643)",
+                "IsStatic": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 37.5982,
+                    "y": 7.1006,
+                    "z": 148.2643
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "NeedlyGirlOverdose",
+                "Items": [
+                    {
+                        "_id": "NeedlyGirlOverdose",
+                        "_tpl": "天使飞越那无尽宇宙"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,22 +1,99 @@
 {
-    "ArmorHUD":true,
-    "AmmoHUD":true,
-    "ItemColor":true,
-    "LegendKey":true,
-    "ItemPrice":true,
-    "PriceHUD":true,
-    "QuestRequire":true,
-    "ExamineByDefault":false,
-    "MainQuest":true,
-    "HideoutInfo":true,
-    "NoHideReward":true,
-    "QuestItemInfo":true,
-    "QuestLLRDisplay":true,
-    "QuestUnlock":true,
-    "QuestLevelNeed":true,
-    "QuestItemDisplay":true,
-    "GunsmithHelper":true,
-    "ResetName":true,
-    "NoHideConditions":true,
-    "RagfairPrice":true
+    "Main": {
+        "温馨提示": "请勿修改LoginTrigger",
+        "LoginTrigger": true,
+        "DebugMode": false,
+        "Color": {
+            "ColorLevel0": "808080",
+            "ColorLevel1": "FFFFFF",
+            "ColorLevel2": "00AA00",
+            "ColorLevel3": "00A0FF",
+            "ColorLevel4": "AA00AA",
+            "ColorLevel5": "FFAA00",
+            "ColorLevel6": "AA0000",
+            "ColorLevel7": "FF55FF",
+            "PriceColor": "FFFF80",
+            "AmmoColor": "CCFFFF",
+            "ArmorColor": "87F717",
+            "HandoverColor": "80E0FF",
+            "HandoverRaidColor": "F660AB",
+            "LeaveColor": "00FA9A",
+            "MainQuestColor": "FFA500",
+            "PreQuestColor": "FF6666",
+            "UnlockQuestColor": "80E0FF",
+            "QuestLevelColor": "66FF66"
+        },
+        "Tag": {
+            "TagLevel0": "[废品]",
+            "TagLevel1": "[普通]",
+            "TagLevel2": "[精良]",
+            "TagLevel3": "[稀有]",
+            "TagLevel4": "[史诗]",
+            "TagLevel5": "[传奇]",
+            "TagLevel6": "[神话]",
+            "TagLevel7": "[超越]",
+            "MainQuestTag": "「主线任务」"
+        },
+        "Price":{
+            "PriceLevel0": {
+                "Min": 0,
+                "Max": 1000
+            },
+            "PriceLevel1": {
+                "Min": 1000,
+                "Max": 10000
+            },
+            "PriceLevel2": {
+                "Min": 10000,
+                "Max": 20000
+            },
+            "PriceLevel3": {
+                "Min": 20000,
+                "Max": 50000
+            },
+            "PriceLevel4": {
+                "Min": 50000,
+                "Max": 100000
+            },
+            "PriceLevel5": {
+                "Min": 100000,
+                "Max": 200000
+            },
+            "PriceLevel6": {
+                "Min": 200000,
+                "Max": 500000
+            },
+            "PriceLevel7": {
+                "Min": 500000,
+                "Max": 500000
+            }
+        },
+        "Display": {
+            "Item": true,
+            "Price": true,
+            "Ammo": true,
+            "Armor": true,
+            "Quest": true,
+            "ShortNamePriceMode": false,
+            "RagfairMode": false,
+            "PriceSuggest": true,
+            "MainQuest": true,
+            "NameReplace": true
+        },
+        "Link":{
+            "Update": "https://gitee.com/HiddenCirno/mini-hud-reborn/raw/master/Version.txt",
+            "Download": "https://pan.baidu.com/s/1aQWRLJ1Q5clI99b3qtPX9Q?pwd=MHWI",
+            "Github": "https://github.com/HiddenCirno/MiniHUD/tree/Reborn",
+            "Gitee":"https://gitee.com/HiddenCirno/mini-hud-reborn",
+            "Announcement": "https://gitee.com/HiddenCirno/mini-hud-reborn/raw/master/Announcement.txt"
+        },
+        "ItemBlackList":[
+            "5449016a4bdc2d6f028b456f",
+            "5696686a4bdc2da3298b456a",
+            "569668774bdc2da2298b4568"
+        ],
+        "QuestBlackList":[
+            "5c51aac186f77432ea65c552"
+        ]
+    }
 }
