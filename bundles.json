@@ -6,8 +6,13 @@
             ]
         },
         {
-            "key": "string",
+            "key": "assets/content/items/spec/athunkcard/item_keycard_lab_red.bundle",
 			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/items/spec/item_keycard_lab/item_keycard_lab_gloss_nrm",
+                "assets/content/items/spec/item_keycard_lab/item_keycard_lab_mesh",
+                "cubemaps",
+                "shaders"
             ]
         },
         {

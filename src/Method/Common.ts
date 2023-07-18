@@ -90,19 +90,29 @@ export class Common {
         }
 
         if (minutes > 0) {
-            if(hours > 0){
-                result += `0${minutes}分`;
+            if(minutes >= 10){
+                result += `${minutes}分`;
             }
             else{
-                result += `${minutes}分`;
+                if(hours>0){
+                result += `0${minutes}分`;
+                }
+                else{
+                    result += `${minutes}分`;
+                }
             }
         }
         if (seconds > 0) {
-            if(minutes > 0){
-            result += `0${seconds}.${millisecondsRemaining}秒`;
+            if(seconds >= 10){
+            result += `${seconds}.${millisecondsRemaining}秒`;
             }
             else{
-                result += `${seconds}.${millisecondsRemaining}秒`;
+                if(minutes>0){
+                    result += `0${seconds}.${millisecondsRemaining}秒`;
+                }
+                else{
+                    result += `${seconds}.${millisecondsRemaining}秒`;
+                }
             }
         }
         if(!(seconds>0)){
@@ -144,7 +154,7 @@ export class Common {
                 } else {
                     //CustomLog(`Current version (${currentVersion}) is up-to-date. Mod Name: ${ModName}`);
                     this.Log(`当前版本已是最新。`);
-                    this.Log(`你正在使用最新版本(${version})。`);
+                    this.Log(`你正在使用最新版本(${version})`);
                 }
                 if (result) {
                 } else {
@@ -192,5 +202,34 @@ export class Common {
             this.Log(error);
         }
     }
+    public async getUpdateLog(requesturl: string): Promise<void> {
+        try {
+            const options = {
+                rejectUnauthorized: false
+            };
+            const http = require('https');
+            const response = await new Promise((resolve, reject) => {
+                http.get(requesturl, options, resolve).on('error', reject);
+            });
 
+            let result = '';
+            this.Announce("正在获取更新日志…")
+            response.on('data', (chunk) => {
+                result += chunk;
+            });
+            response.on('end', () => {
+                this.Announce(`更新日志: ${result}`);
+            });
+        } catch (error) {
+            this.Log(error);
+        }
+    }
+    public checkTrader(traderid){
+        if(this.DB.traders[traderid]!=null){
+            return true
+        }
+        else{
+            return false
+        }
+    }
 }

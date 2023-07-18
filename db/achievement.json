@@ -6,6 +6,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: THE INTERNET ANGEL be INVOKED changeQuestMessageText",
     "completePlayerMessage": "成就: THE INTERNET ANGEL be INVOKED completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -92,6 +94,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: 断面之意 changeQuestMessageText",
     "completePlayerMessage": "成就: 断面之意 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -186,6 +190,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: 百鬼降服 changeQuestMessageText",
     "completePlayerMessage": "成就: 百鬼降服 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -280,6 +286,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: 锐气千刃 changeQuestMessageText",
     "completePlayerMessage": "成就: 锐气千刃 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -374,6 +382,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: 万劫不复 changeQuestMessageText",
     "completePlayerMessage": "成就: 万劫不复 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -468,6 +478,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: 列宁勋章 changeQuestMessageText",
     "completePlayerMessage": "成就: 列宁勋章 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         
@@ -550,6 +562,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: 希波克拉底誓言 changeQuestMessageText",
     "completePlayerMessage": "成就: 希波克拉底誓言 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         
@@ -632,6 +646,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: 要亲近朋友… changeQuestMessageText",
     "completePlayerMessage": "成就: 要亲近朋友… completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         
@@ -714,6 +730,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: 百万欧元 changeQuestMessageText",
     "completePlayerMessage": "成就: 百万欧元 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         
@@ -796,6 +814,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: 白手套 changeQuestMessageText",
     "completePlayerMessage": "成就: 白手套 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         
@@ -878,6 +898,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: 技术宅拯救世界 changeQuestMessageText",
     "completePlayerMessage": "成就: 技术宅拯救世界 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         
@@ -960,6 +982,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: IDEA终身会员 changeQuestMessageText",
     "completePlayerMessage": "成就: IDEA终身会员 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         
@@ -1042,6 +1066,8 @@
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "成就: 荒野的呼唤 changeQuestMessageText",
     "completePlayerMessage": "成就: 荒野的呼唤 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
     "conditions": {
       "AvailableForFinish": [
         
@@ -1116,6 +1142,705 @@
     "templateId": "成就: 荒野的呼唤",
     "traderId": "579dc571d53a0658a154fbec",
     "type": "Standing"
+  },
+  "成就: 百步穿杨": {
+    "QuestName": "Checking",
+    "_id": "成就: 百步穿杨",
+    "acceptPlayerMessage": "成就: 百步穿杨 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "成就: 百步穿杨 changeQuestMessageText",
+    "completePlayerMessage": "成就: 百步穿杨 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
+    "conditions": {
+      "AvailableForFinish": [
+       {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "compareMethod": ">=",
+                    "distance": {
+                      "compareMethod": ">=",
+                      "value": 100
+                    },
+                    "id": "百步穿杨-KillTarget1",
+                    "target": "Any"
+                  }
+                }
+              ],
+              "id": "百步穿杨-KillCounter1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "百步穿杨-Kill1",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+        ],
+      "AvailableForStart": [],
+      "Fail": []
+    },
+    "description": "成就: 百步穿杨 description",
+    "failMessageText": "成就: 百步穿杨 failMessageText",
+    "image": "/files/quest/icon/Sniper.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "成就: 百步穿杨 name",
+    "note": "成就: 百步穿杨 note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "百步穿杨-Reward1",
+          "index": 0,
+          "type": "Experience",
+          "value": "100000"
+        },
+        {
+          "findInRaid": true,
+          "id": "百步穿杨-Reward2",
+          "index": 1,
+          "items": [
+            {
+              "_id": "百步穿杨-Reward2-1",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "百步穿杨-Reward2-2",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            }
+          ],
+          "target": "百步穿杨-Reward2-1",
+          "type": "Item",
+          "value": "1000000"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "成就: 百步穿杨 startedMessageText",
+    "successMessageText": "成就: 百步穿杨 successMessageText",
+    "templateId": "成就: 百步穿杨",
+    "traderId": "579dc571d53a0658a154fbec",
+    "type": "Elimination"
+  },
+  "成就: 正中靶心": {
+    "QuestName": "Checking",
+    "_id": "成就: 正中靶心",
+    "acceptPlayerMessage": "成就: 正中靶心 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "成就: 正中靶心 changeQuestMessageText",
+    "completePlayerMessage": "成就: 正中靶心 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
+    "conditions": {
+      "AvailableForFinish": [
+       {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "compareMethod": ">=",
+                    "distance": {
+                      "compareMethod": ">=",
+                      "value": 200
+                    },
+                    "id": "正中靶心-KillTarget1",
+                    "target": "Any"
+                  }
+                }
+              ],
+              "id": "正中靶心-KillCounter1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "正中靶心-Kill1",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+        ],
+      "AvailableForStart": [],
+      "Fail": []
+    },
+    "description": "成就: 正中靶心 description",
+    "failMessageText": "成就: 正中靶心 failMessageText",
+    "image": "/files/quest/icon/Sniper.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "成就: 正中靶心 name",
+    "note": "成就: 正中靶心 note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "正中靶心-Reward1",
+          "index": 0,
+          "type": "Experience",
+          "value": "100000"
+        },
+        {
+          "findInRaid": true,
+          "id": "正中靶心-Reward2",
+          "index": 1,
+          "items": [
+            {
+              "_id": "正中靶心-Reward2-1",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "正中靶心-Reward2-2",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            }
+          ],
+          "target": "正中靶心-Reward2-1",
+          "type": "Item",
+          "value": "1000000"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "成就: 正中靶心 startedMessageText",
+    "successMessageText": "成就: 正中靶心 successMessageText",
+    "templateId": "成就: 正中靶心",
+    "traderId": "579dc571d53a0658a154fbec",
+    "type": "Elimination"
+  },
+  "成就: 天神射手": {
+    "QuestName": "Checking",
+    "_id": "成就: 天神射手",
+    "acceptPlayerMessage": "成就: 天神射手 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "成就: 天神射手 changeQuestMessageText",
+    "completePlayerMessage": "成就: 天神射手 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
+    "conditions": {
+      "AvailableForFinish": [
+       {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "compareMethod": ">=",
+                    "distance": {
+                      "compareMethod": ">=",
+                      "value": 300
+                    },
+                    "id": "天神射手-KillTarget1",
+                    "target": "Any"
+                  }
+                }
+              ],
+              "id": "天神射手-KillCounter1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "天神射手-Kill1",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+        ],
+      "AvailableForStart": [],
+      "Fail": []
+    },
+    "description": "成就: 天神射手 description",
+    "failMessageText": "成就: 天神射手 failMessageText",
+    "image": "/files/quest/icon/Sniper.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "成就: 天神射手 name",
+    "note": "成就: 天神射手 note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "天神射手-Reward1",
+          "index": 0,
+          "type": "Experience",
+          "value": "100000"
+        },
+        {
+          "findInRaid": true,
+          "id": "天神射手-Reward2",
+          "index": 1,
+          "items": [
+            {
+              "_id": "天神射手-Reward2-1",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "天神射手-Reward2-2",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            }
+          ],
+          "target": "天神射手-Reward2-1",
+          "type": "Item",
+          "value": "1000000"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "成就: 天神射手 startedMessageText",
+    "successMessageText": "成就: 天神射手 successMessageText",
+    "templateId": "成就: 天神射手",
+    "traderId": "579dc571d53a0658a154fbec",
+    "type": "Elimination"
+  },
+  "成就: 死亡凝视": {
+    "QuestName": "Checking",
+    "_id": "成就: 死亡凝视",
+    "acceptPlayerMessage": "成就: 死亡凝视 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "成就: 死亡凝视 changeQuestMessageText",
+    "completePlayerMessage": "成就: 死亡凝视 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
+    "conditions": {
+      "AvailableForFinish": [
+       {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "compareMethod": ">=",
+                    "distance": {
+                      "compareMethod": ">=",
+                      "value": 500
+                    },
+                    "id": "死亡凝视-KillTarget1",
+                    "target": "Any"
+                  }
+                }
+              ],
+              "id": "死亡凝视-KillCounter1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "死亡凝视-Kill1",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+        ],
+      "AvailableForStart": [],
+      "Fail": []
+    },
+    "description": "成就: 死亡凝视 description",
+    "failMessageText": "成就: 死亡凝视 failMessageText",
+    "image": "/files/quest/icon/Sniper.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "成就: 死亡凝视 name",
+    "note": "成就: 死亡凝视 note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "死亡凝视-Reward1",
+          "index": 0,
+          "type": "Experience",
+          "value": "100000"
+        },
+        {
+          "findInRaid": true,
+          "id": "死亡凝视-Reward2",
+          "index": 1,
+          "items": [
+            {
+              "_id": "死亡凝视-Reward2-1",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "死亡凝视-Reward2-2",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            }
+          ],
+          "target": "死亡凝视-Reward2-1",
+          "type": "Item",
+          "value": "1000000"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "成就: 死亡凝视 startedMessageText",
+    "successMessageText": "成就: 死亡凝视 successMessageText",
+    "templateId": "成就: 死亡凝视",
+    "traderId": "579dc571d53a0658a154fbec",
+    "type": "Elimination"
+  },
+  "成就: 幽灵子弹": {
+    "QuestName": "Checking",
+    "_id": "成就: 幽灵子弹",
+    "acceptPlayerMessage": "成就: 幽灵子弹 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "成就: 幽灵子弹 changeQuestMessageText",
+    "completePlayerMessage": "成就: 幽灵子弹 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
+    "conditions": {
+      "AvailableForFinish": [
+       {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "compareMethod": ">=",
+                    "distance": {
+                      "compareMethod": ">=",
+                      "value": 600
+                    },
+                    "id": "幽灵子弹-KillTarget1",
+                    "target": "Any"
+                  }
+                }
+              ],
+              "id": "幽灵子弹-KillCounter1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "幽灵子弹-Kill1",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+        ],
+      "AvailableForStart": [],
+      "Fail": []
+    },
+    "description": "成就: 幽灵子弹 description",
+    "failMessageText": "成就: 幽灵子弹 failMessageText",
+    "image": "/files/quest/icon/Sniper.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "成就: 幽灵子弹 name",
+    "note": "成就: 幽灵子弹 note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "幽灵子弹-Reward1",
+          "index": 0,
+          "type": "Experience",
+          "value": "100000"
+        },
+        {
+          "findInRaid": true,
+          "id": "幽灵子弹-Reward2",
+          "index": 1,
+          "items": [
+            {
+              "_id": "幽灵子弹-Reward2-1",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "幽灵子弹-Reward2-2",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            }
+          ],
+          "target": "幽灵子弹-Reward2-1",
+          "type": "Item",
+          "value": "1000000"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "成就: 幽灵子弹 startedMessageText",
+    "successMessageText": "成就: 幽灵子弹 successMessageText",
+    "templateId": "成就: 幽灵子弹",
+    "traderId": "579dc571d53a0658a154fbec",
+    "type": "Elimination"
+  },
+  "成就: 独步长空": {
+    "QuestName": "Checking",
+    "_id": "成就: 独步长空",
+    "acceptPlayerMessage": "成就: 独步长空 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "成就: 独步长空 changeQuestMessageText",
+    "completePlayerMessage": "成就: 独步长空 completePlayerMessage",
+    "check": false,
+    "checkid": "Persiciria",
+    "conditions": {
+      "AvailableForFinish": [
+       {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "compareMethod": ">=",
+                    "distance": {
+                      "compareMethod": ">=",
+                      "value": 800
+                    },
+                    "id": "独步长空-KillTarget1",
+                    "target": "Any"
+                  }
+                }
+              ],
+              "id": "独步长空-KillCounter1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "独步长空-Kill1",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+        ],
+      "AvailableForStart": [],
+      "Fail": []
+    },
+    "description": "成就: 独步长空 description",
+    "failMessageText": "成就: 独步长空 failMessageText",
+    "image": "/files/quest/icon/Sniper.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "成就: 独步长空 name",
+    "note": "成就: 独步长空 note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "独步长空-Reward1",
+          "index": 0,
+          "type": "Experience",
+          "value": "100000"
+        },
+        {
+          "findInRaid": true,
+          "id": "独步长空-Reward2",
+          "index": 1,
+          "items": [
+            {
+              "_id": "独步长空-Reward2-1",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "独步长空-Reward2-2",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            }
+          ],
+          "target": "独步长空-Reward2-1",
+          "type": "Item",
+          "value": "1000000"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "成就: 独步长空 startedMessageText",
+    "successMessageText": "成就: 独步长空 successMessageText",
+    "templateId": "成就: 独步长空",
+    "traderId": "579dc571d53a0658a154fbec",
+    "type": "Elimination"
+  },
+  "成就: 猛男军火库": {
+    "QuestName": "Checking",
+    "_id": "成就: 猛男军火库",
+    "acceptPlayerMessage": "成就: 猛男军火库 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "成就: 猛男军火库 changeQuestMessageText",
+    "completePlayerMessage": "成就: 猛男军火库 completePlayerMessage",
+    "check": true,
+    "checkid": "AT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "AT的钥匙卡"
+            ],
+            "value": "1",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "AT-Find",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [],
+      "Fail": []
+    },
+    "description": "成就: 猛男军火库 description",
+    "failMessageText": "成就: 猛男军火库 failMessageText",
+    "image": "/files/quest/icon/ATmainquest0.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "成就: 猛男军火库 name",
+    "note": "成就: 猛男军火库 note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "AT-Reward1",
+          "index": 0,
+          "type": "Experience",
+          "value": "100000"
+        },
+        {
+          "findInRaid": true,
+          "id": "AT-Reward2",
+          "index": 1,
+          "items": [
+            {
+              "_id": "AT-Reward2-1",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "AT-Reward2-2",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            }
+          ],
+          "target": "AT-Reward2-1",
+          "type": "Item",
+          "value": "1000000"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "成就: 猛男军火库 startedMessageText",
+    "successMessageText": "成就: 猛男军火库 successMessageText",
+    "templateId": "成就: 猛男军火库",
+    "traderId": "579dc571d53a0658a154fbec",
+    "type": "PickUp"
   }
-
 }

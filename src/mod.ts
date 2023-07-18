@@ -90,9 +90,13 @@ class Mod implements IPreAkiLoadMod {
         const ELocale = ClientDB.locales.global["en"]
         Common.checkUpdate(Common.Config.Main.Link.Update, Common.Config.Main.Link.Download, Common.Config.Main.Link.Github, Common.Config.Main.Link.Gitee)
         Common.getAnnouncement(Common.Config.Main.Link.Announcement)
+        Common.getUpdateLog(Common.Config.Main.Link.UpdateLog)
         Data.addItem();
         Data.addQuest();
         //Data.addAssort("天使飞越那无尽宇宙");
+        //Data.addAssort("AT的钥匙卡");
+        //ClientDB.locations.tarkovstreets.looseLoot.spawnpointsForced = []
+        //ClientDB.locations.tarkovstreets.looseLoot.spawnpoints = []
         Data.addSpawn();
         const iconPath = `${ModPath}images/quests/`
         const iconList = VFS.getFiles(iconPath);
@@ -106,7 +110,7 @@ class Mod implements IPreAkiLoadMod {
             const filename = VFS.stripExtension(icon);
             imageRouter.addRoute(`/files/quest/icon/${filename}`, `${iconPath}${icon}`);
         }
-        for(let key in DB.achievementlocale){
+        for (let key in DB.achievementlocale) {
             ClientDB.locales.global["ch"][key] = DB.achievementlocale[key]
         }
         //VFS.writeFile(`${ModPath}Cache/ItemLocaleKeyCache.json`, JSON.stringify(ItemLocaleKeyCache, null, 4))
@@ -150,14 +154,14 @@ class Mod implements IPreAkiLoadMod {
             Common.Log("正在建立价格映射…");
             Cache.writeItemPriceCache(PriceMap);
         }
-        else{
+        else {
             Common.Log(`正在初始化数据…`)
         }
         if (Config.Main.LoginTrigger == true) {
             Data.setItemData(PriceMap);
             Data.setQuestData();
-            Config.Main.LoginTrigger = false
             Data.addQuest();
+            Config.Main.LoginTrigger = false
         }
         const end = performance.now()
         Common.Notice(`所有数据初始化完毕！共耗时${Common.formatTime(end - start)}`)

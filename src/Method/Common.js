@@ -96,19 +96,29 @@ let Common = class Common {
             result += `${hours}小时`;
         }
         if (minutes > 0) {
-            if (hours > 0) {
-                result += `0${minutes}分`;
+            if (minutes >= 10) {
+                result += `${minutes}分`;
             }
             else {
-                result += `${minutes}分`;
+                if (hours > 0) {
+                    result += `0${minutes}分`;
+                }
+                else {
+                    result += `${minutes}分`;
+                }
             }
         }
         if (seconds > 0) {
-            if (minutes > 0) {
-                result += `0${seconds}.${millisecondsRemaining}秒`;
+            if (seconds >= 10) {
+                result += `${seconds}.${millisecondsRemaining}秒`;
             }
             else {
-                result += `${seconds}.${millisecondsRemaining}秒`;
+                if (minutes > 0) {
+                    result += `0${seconds}.${millisecondsRemaining}秒`;
+                }
+                else {
+                    result += `${seconds}.${millisecondsRemaining}秒`;
+                }
             }
         }
         if (!(seconds > 0)) {
@@ -148,7 +158,7 @@ let Common = class Common {
                 else {
                     //CustomLog(`Current version (${currentVersion}) is up-to-date. Mod Name: ${ModName}`);
                     this.Log(`当前版本已是最新。`);
-                    this.Log(`你正在使用最新版本(${version})。`);
+                    this.Log(`你正在使用最新版本(${version})`);
                 }
                 if (result) {
                 }
@@ -196,6 +206,14 @@ let Common = class Common {
         }
         catch (error) {
             this.Log(error);
+        }
+    }
+    checkTrader(traderid) {
+        if (this.DB.traders[traderid] != null) {
+            return true;
+        }
+        else {
+            return false;
         }
     }
 };

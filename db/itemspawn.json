@@ -29,6 +29,36 @@
                     }
                 ]
             }
+        },
+        {
+            "locationId": "(208.5545 -0.4024 409.062)",
+            "probability": 1,
+            "template": {
+                "Id": "(208.5545 -0.4024 409.062)",
+                "IsStatic": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 208.5545,
+                    "y": -0.4024,
+                    "z": 409.062
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "AT-Card",
+                "Items": [
+                    {
+                        "_id": "AT-Card",
+                        "_tpl": "AT的钥匙卡"
+                    }
+                ]
+            }
         }
     ]
 }

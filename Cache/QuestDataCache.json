@@ -11550,8 +11550,8 @@
             "ID": "成就: THE INTERNET ANGEL be INVOKED",
             "Name": "「成就」THE INTERNET ANGEL Be INVOKED",
             "Description": "天使飞越那无尽宇宙",
-            "TraderID": "Persicaria",
-            "TraderName": "千叶玲花",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
             "Start": {
                 "Level": 0,
                 "PreQuest": [],
@@ -11566,8 +11566,8 @@
             "ID": "成就: 断面之意",
             "Name": "「成就」断面之意",
             "Description": "一刀斩敌的木剑，乃拔刀术的第一部，真正的切伏之刃",
-            "TraderID": "Persicaria",
-            "TraderName": "千叶玲花",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
             "Start": {
                 "Level": 0,
                 "PreQuest": [],
@@ -11582,8 +11582,8 @@
             "ID": "成就: 百鬼降服",
             "Name": "「成就」百鬼降服",
             "Description": "百人斩的银纸竹光折断所残留的名器",
-            "TraderID": "Persicaria",
-            "TraderName": "千叶玲花",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
             "Start": {
                 "Level": 0,
                 "PreQuest": [],
@@ -11598,8 +11598,8 @@
             "ID": "成就: 锐气千刃",
             "Name": "「成就」锐气千刃",
             "Description": "斩神杀佛之刀，能接受无穷技艺的业之容器",
-            "TraderID": "Persicaria",
-            "TraderName": "千叶玲花",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
             "Start": {
                 "Level": 0,
                 "PreQuest": [],
@@ -11614,8 +11614,232 @@
             "ID": "成就: 万劫不复",
             "Name": "「成就」万劫不复",
             "Description": "罪业满溢的凶刃，杀意仿佛凝为实质",
-            "TraderID": "Persicaria",
-            "TraderName": "千叶玲花",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 列宁勋章": {
+            "ID": "成就: 列宁勋章",
+            "Name": "「成就」列宁勋章",
+            "Description": "将指定商人的信任度提升到最高等级",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 希波克拉底誓言": {
+            "ID": "成就: 希波克拉底誓言",
+            "Name": "「成就」希波克拉底誓言",
+            "Description": "将指定商人的信任度提升到最高等级",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 要亲近朋友…": {
+            "ID": "成就: 要亲近朋友…",
+            "Name": "「成就」要亲近朋友…",
+            "Description": "将指定商人的信任度提升到最高等级",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 百万欧元": {
+            "ID": "成就: 百万欧元",
+            "Name": "「成就」百万欧元",
+            "Description": "将指定商人的信任度提升到最高等级",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 白手套": {
+            "ID": "成就: 白手套",
+            "Name": "「成就」白手套",
+            "Description": "将指定商人的信任度提升到最高等级",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 技术宅拯救世界": {
+            "ID": "成就: 技术宅拯救世界",
+            "Name": "「成就」技术宅拯救世界",
+            "Description": "将指定商人的信任度提升到最高等级",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: IDEA终身会员": {
+            "ID": "成就: IDEA终身会员",
+            "Name": "「成就」IDEA终身会员",
+            "Description": "将指定商人的信任度提升到最高等级",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 荒野的呼唤": {
+            "ID": "成就: 荒野的呼唤",
+            "Name": "「成就」荒野的呼唤",
+            "Description": "将指定商人的信任度提升到最高等级",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 百步穿杨": {
+            "ID": "成就: 百步穿杨",
+            "Name": "「成就」百步穿杨",
+            "Description": "完成一次100米之外的击杀",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 正中靶心": {
+            "ID": "成就: 正中靶心",
+            "Name": "「成就」正中靶心",
+            "Description": "完成一次200米之外的击杀",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 天神射手": {
+            "ID": "成就: 天神射手",
+            "Name": "「成就」天神射手",
+            "Description": "完成一次300米之外的击杀",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 死亡凝视": {
+            "ID": "成就: 死亡凝视",
+            "Name": "「成就」死亡凝视",
+            "Description": "完成一次500米之外的击杀",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 幽灵子弹": {
+            "ID": "成就: 幽灵子弹",
+            "Name": "「成就」幽灵子弹",
+            "Description": "完成一次600米之外的击杀",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "成就: 独步长空": {
+            "ID": "成就: 独步长空",
+            "Name": "「成就」独步长空",
+            "Description": "完成一次800米之外的击杀",
+            "TraderID": "579dc571d53a0658a154fbec",
+            "TraderName": "Fence",
             "Start": {
                 "Level": 0,
                 "PreQuest": [],
@@ -13232,6 +13456,1819 @@
                 "Leave": []
             }
         },
+        "ATmainquest0": {
+            "ID": "ATmainquest0",
+            "Name": "猛男军火库介绍",
+            "Description": "我是AT，本mod的作者，如果你是通过花钱购买所谓mod整合包或者从其他电商平台上花钱购买的，那么恭喜你交了智商税，本mod完全免费。猛男军火库是一个整活mod，含有精神污染物品，绝对不含限制级内容，其中包含的武器装备能助你在塔科夫横着走，也不乏一些休闲奇葩的小道具。你说为啥咱就卖这么点东西？那是需要你做任务才能解锁，而且每个任务都对应部分武器，完成任务有助于帮助你了解武器的特点。顺便我也解释下本mod会出现的一些代名词——KIA（挂掉）；土炮（TOZ-106霰弹枪）；格师傅（储备站boss）；洗脚图（邪教徒）；shitman（森林boss斯图曼的谐音）；肥宅水（塔可乐）。好了，你可以看看邮件，跟着邮件的引导来完成第一个任务。",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest1",
+                        "questname": "（主）苏醒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "hunkbasemod",
+                        "itemname": "生物识别卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest1": {
+            "ID": "ATmainquest1",
+            "Name": "（主）苏醒",
+            "Description": "看到那些白色的小家伙没，他们是galo，市场价10块一斤，你们这些倒霉蛋就是被它们救的。当然不是白干的，你身上除了裤裆里面的东西还有刀以外，其他的就当做是辛苦费了。什么，你问我是谁，然而你没必要知道我是谁。如你所见，你现在正在塔科夫最大的军火商里面接受治疗，当然这种待遇只有一次，后面你要是再”死“就只会把你送回你的庇护所了。",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest0",
+                        "questname": "猛男军火库介绍",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest2",
+                        "questname": "（主）考验",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest2": {
+            "ID": "ATmainquest2",
+            "Name": "（主）考验",
+            "Description": "想在我这边打下手？那你得知道，这里是猛男陆军，不是让你来逛窑子的。这样吧，当地的土匪你去做掉10个，当然也算是帮我提供生意，就算是炸成灰这边也能给他救回来，所以不用担心弄脏你娇嫩的双手",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest1",
+                        "questname": "（主）苏醒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest3",
+                        "questname": "（主）故友重逢",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest3": {
+            "ID": "ATmainquest3",
+            "Name": "（主）故友重逢",
+            "Description": "我认为列克星敦就是世界的主宰,所有人都应该成为她忠心的奴仆",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest2",
+                        "questname": "（主）考验",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmoneyquest1",
+                        "questname": "远征-油弹钢铝（重复任务）",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATmoneyquest2",
+                        "questname": "远征-燃料（重复任务）",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATsidequest1",
+                        "questname": "猛男批发（重复任务、无法完成）",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATsidequest2",
+                        "questname": "猛男训练营（可选）",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATstoryquest0",
+                        "questname": "（支）我有故事，你有酒吗",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATmainquest4",
+                        "questname": "（主）万恶之源",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmoneyquest1": {
+            "ID": "ATmoneyquest1",
+            "Name": "远征-油弹钢铝（重复任务）",
+            "Description": "这四个东西就是我港区的主要资源。在塔科夫，只要是跟这四种资源搭边的咱都能通过特殊手段给它提取出来。我觉得我可以拜托你帮忙怼一些SCAV，毕竟只靠回收PMC来获取资源的速度总是不够理想。（谨以此任务感谢好兄弟萱苏为军火库的专属货币建模）",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest3",
+                        "questname": "（主）故友重逢",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "ATmoneyquest2": {
+            "ID": "ATmoneyquest2",
+            "Name": "远征-燃料（重复任务）",
+            "Description": "scav raiders，掠夺者，不过我个人喜欢叫他们钢蛋，是由一些被除名的PMC和精英SCAV组成，战斗力方面比普通的scav强上不少，当然了，他们手里的家伙也是一样，如果能放倒他们然后回收武器装备用来提取物资也是个不错的选择。钢蛋只有储备站还有实验室才会有，这些屌丝除了枪法准外手雷也是丢得很六，我刚到塔科夫的时候没有少被他们欺负过.",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest3",
+                        "questname": "（主）故友重逢",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "ATmoneyquest3": {
+            "ID": "ATmoneyquest3",
+            "Name": "远征-铝（重复任务）",
+            "Description": "如果真要论武器质量的话还得看各个地区的boss，一般他们的装备都能卖个好价钱，如果你缺铝材的话可以帮忙放倒他们，不过也不必担心会被报复，有我罩你，放心去做吧",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "ATspecialquest1": {
+            "ID": "ATspecialquest1",
+            "Name": "来自AT的鄙视",
+            "Description": "所以说你用存档修改器有什么意思？每个任务我都是对应相应的武器特色给的，拿着新东西干一架有那么难？",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATsidequest1",
+                        "questname": "猛男批发（重复任务、无法完成）",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATspecialquest2",
+                        "questname": "二次机会",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "ATspecialquest2": {
+            "ID": "ATspecialquest2",
+            "Name": "二次机会",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATspecialquest1",
+                        "questname": "来自AT的鄙视",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "GPUNVIDIAGEFORCERTX30901",
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATsidequest1": {
+            "ID": "ATsidequest1",
+            "Name": "猛男批发（重复任务、无法完成）",
+            "Description": "你杀了我算你厉害，我杀了你，那是我的本事。所以不要觉得被打倒很丢人，带上这个，放手去干吧，无论如何请记住，你的背后是猛男军火库还有整个虫群！",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest3",
+                        "questname": "（主）故友重逢",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATspecialquest1",
+                        "questname": "来自AT的鄙视",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "ATsidequest2": {
+            "ID": "ATsidequest2",
+            "Name": "猛男训练营（可选）",
+            "Description": "介绍下，这位是风男，你问我为啥他看起来这么佛系？哦，他以前是伐木工，但老被两头狗熊欺负外加老板的剥削，后来跳槽去峡谷当英雄整天哈萨ki乱打一通，直到有一天被0-21，从此之后就看淡了人生一样，我看他潜力不错，就雇佣他负责galo们的战术训练，如果你觉得自己不够强的话我可以介绍给你。不过你既然跟lure呆了这么久，应该不会轻易被风男的地狱式训练搞趴下吧哈哈",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest3",
+                        "questname": "（主）故友重逢",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "ATsidequest3": {
+            "ID": "ATsidequest3",
+            "Name": "电脑城的委托？（联动kmyuhkyuk）",
+            "Description": "需要三张显卡是吧，小事一桩，顺便咱这边有点好东西要给你。不过你要显卡干嘛，除非改存档或者用超模，不然不会这么快开比特币矿场的吧...........电脑城的委托，啥时候塔科夫里面有人做电脑生意了？你说负责人是kmyuhkyuk？好家伙......对啊，我认识他，咱猛男军火库在发展期间遇到的很多我无法解决的技术难关就是他帮忙解决的，有机会我一定去电脑城那边逛逛，顺便当面好好感谢他对我的帮助",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": [
+                    {
+                        "itemid": "5ac66d9b5acfc4001633997a",
+                        "itemname": "AK-105 5.45x39 突击步枪",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "5c46fbd72e2216398b5a8c9c",
+                        "itemname": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ]
+            }
+        },
+        "ATnavyquest1": {
+            "ID": "ATnavyquest1",
+            "Name": "新势力？",
+            "Description": "前些日子galo们在实验室回收了几个倒霉蛋，别说还挺肥的，身上的家伙比普通的PMC精良了不知道多少个档次。顺便也从他们口中知道了一个被称为“末日商会”的组织，据说那些活跃在塔科夫的“本地”商人都已经被这个商会给收编了，看来这个组织来头不小。先麻烦你去他们干架的地方调查一下，看能不能发现一些线索，我这边也派galo去调查下。",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "tccw_0000000000000000001",
+                        "questtraderid": null,
+                        "questtradername": "NoName"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "5c0e_41586f7747fa54205c9",
+                        "onlyfindinraid": true,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATstoryquest0": {
+            "ID": "ATstoryquest0",
+            "Name": "（支）我有故事，你有酒吗",
+            "Description": "曾经我觉得我跟他能成为朋友，我俩合作的这段时间也挺开心的，但他最后还是输给了利益。我也曾经多次劝诫他不要当倒狗被人唾弃，奈何每次都是表面一套背后一套。事情败露后他甚至用拙劣的理由去美化自己的所作所为，最后选择跟淘宝的司马奸商进行下一步合作。我只能说我当初真的看错人了，如果你对我的这段经历感兴趣的话那就拿酒来吧，我有故事，你有酒吗？",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest3",
+                        "questname": "（主）故友重逢",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATstoryquest1",
+                        "questname": "（支）合作邀请",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "5d40407c86f774318526545a",
+                        "itemname": "Tarkovskaya瓶装伏特加",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATstoryquest1": {
+            "ID": "ATstoryquest1",
+            "Name": "（支）合作邀请",
+            "Description": "好消息兄弟，这边有位来自DY的主播来跟咋们谈合作，希望我们允许他们使用军火库的原版武器，而他们会将这些武器用于对付塔科夫的那些SCAV们，同时也会以直播的形式让塔科夫的pmc们看到。我是觉得这挺难得的，也代表咋们军火库也算是被认可了，所以我是答应了合作，并约定好在森林伐木场宿舍区的中间小屋碰头，不过再次之前就麻烦你把咱们军火库的钥匙卡跟生物识别卡送到那里。路上如果有SCAV想截胡的话直接做掉，顺便去欺负下shitman，这个火箭筒就给你防身用，毕竟我们得表达我们这边的合作诚意才行",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATstoryquest0",
+                        "questname": "（支）我有故事，你有酒吗",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATstoryquest2",
+                        "questname": "（支）收集意见",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "hunkbasemod",
+                        "itemname": "生物识别卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ]
+            }
+        },
+        "ATstoryquest2": {
+            "ID": "ATstoryquest2",
+            "Name": "（支）收集意见",
+            "Description": "这个时间点差不多主播已经开播了，他比较喜欢去实验室，毕竟里面的混蛋战斗力还是可以的，干起架来节目效果拉满。我看你最近都快被lure整的走路要扶墙的节奏，我看有必要找点借口让你脱身，不然哪天真的莫得了。这样吧，你也去实验室看看，尽量避开主播的视线，还要听一下那些观众对咱们的武器有啥看法，毕竟咱搞新武器的要合pmc们的胃口才行，我这边有个主意，直接进去装死就行，不过记得打一针猛男催化剂。",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATstoryquest1",
+                        "questname": "（支）合作邀请",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATstoryquest3",
+                        "questname": "（支）精益求精",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "ATstoryquest3": {
+            "ID": "ATstoryquest3",
+            "Name": "（支）精益求精",
+            "Description": "经过我这几天的观看直播发现咱们武器的不少缺点，尤其是这把激光剑，明明我自认为亮度刚刚好，但是主播跟观众的反应都是在说亮瞎眼，还有就是我也发现海风的强度过于变态，突突起来直接人挡杀人神挡杀神的那种，那个50米击杀比我想像的中的简单不少，总之有个人能帮忙将咱们的武器宣传开来就是好，听取第三方的意见是非常有必要的。",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATstoryquest2",
+                        "questname": "（支）收集意见",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATstoryquest4",
+                        "questname": "（支）吃瓜群众",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": [
+                    {
+                        "itemid": "lasersword",
+                        "itemname": "激光剑",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ]
+            }
+        },
+        "ATstoryquest4": {
+            "ID": "ATstoryquest4",
+            "Name": "（支）吃瓜群众",
+            "Description": "老兄来吃个瓜，这个主播有个管理简直离谱，直接明码标价在出售所谓的整合包，定价52，更离谱的是人家丢了个聊天记录出来，就是他跟主播的对话，内容差不多就是主播允许他私底下收现金然后一人一半。结局么，你懂的，被锤了之后这个管理被封杀了，而且我也去质问了主播聊天记录的事情，他也似乎被这个管理整的很尴尬，说是邀请我储备站的地下指挥所去用那边的设施进行连线沟通一下，我倒要看看他到底有啥理由。顺便我最开始就不喜欢这个成为管理的人，言行举止看起来很幼稚，而且期间还想让我加他的GTA群？我这边委婉地拒绝了多次结果这货还不死心，刷屏一样给我发入群邀请。我不知道他通过什么手段成为了管理，我是觉得这个人完全不可信。跟我去趟储备站吧，顺便好久没跟格师傅打招呼了",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATstoryquest3",
+                        "questname": "（支）精益求精",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATstoryquest5",
+                        "questname": "（支）发现倪端",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "ATstoryquest5": {
+            "ID": "ATstoryquest5",
+            "Name": "（支）发现倪端",
+            "Description": "自上次事情之后一切看似正常了不少，但我咋老觉得这些个管理有点奇怪，一直在打广告一样让那些想要mod的新人私聊他们。嗯.......防人之心不可无，我后面确实联系了几个在海岸线的买家，也获得了他们的聊天记录，这些混蛋果然还在继续这种勾当，但目前我们还不能打草惊蛇，也许这次跟上次一样，全是这些管理私底下的事情，所以麻烦你去一趟海岸线的邪教房取一下证据之一，注意不能用军火库的武器，因为收到消息说他们这些管理有部分伪装成了SCAV",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATstoryquest4",
+                        "questname": "（支）吃瓜群众",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATstoryquest6",
+                        "questname": "（支）二次机会",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "ATstoryquest6": {
+            "ID": "ATstoryquest6",
+            "Name": "（支）二次机会",
+            "Description": "结果他来找我道歉了，希望能继续合作，态度挺诚恳的，也向我保证了以后不把咱的军火库丢到他所谓的mod包里面，其实我那个哥谭噩梦摔炮暗示的人就是他，看来他也是能get到这点，既然他承认了错误我觉得也没必要强人所难，毕竟咱就一个臭写mod的，人家可是要养家糊口的，互相体谅体谅我觉得没啥问题。于是我回去他的粉丝群顺便发现了末日商会的CEO也在里面，好家伙，能拉拢过来也是厉害的，我觉得咱们也可以通过在群里面冒泡来认识下这位作者，何尝不是一件美事呢？",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATstoryquest5",
+                        "questname": "（支）发现倪端",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATstoryquest7",
+                        "questname": "（支）线下调查",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": [
+                    {
+                        "itemid": "dance",
+                        "itemname": "舞蹈-广寒宫",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ]
+            }
+        },
+        "ATstoryquest7": {
+            "ID": "ATstoryquest7",
+            "Name": "（支）线下调查",
+            "Description": "自从跟那个主播继续合作之后感觉一切都回到了正轨上面，我偶尔也会去光顾他的直播，顺便看看咱们军火库的武器有啥不足的地方。但时间久了我还是发现他手下那些管理依旧在一直发消息，说啥要mod的私信他们。也许是我心血来潮吧，我倒是想随便抽一位PMC询问一下，看看这位PMC花了多少钱，顺便想知道这些个mod到底有啥东西包含里面。然后据galo报告正好有位消费了的PMC正在海关，所以就麻烦你去跟他交流♂一波了",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATstoryquest6",
+                        "questname": "（支）二次机会",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATstoryquest8",
+                        "questname": "（支）劝诫",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "ATstoryquest8": {
+            "ID": "ATstoryquest8",
+            "Name": "（支）劝诫",
+            "Description": "一边好好好一边那些管理依旧在叫卖，我觉得是时候劝诫一下这个主播不要被利益蒙蔽了双眼，这时候回头我们依旧还有合作的机会，这样吧，你把这个哥谭噩梦送到我们经常碰头的地方，希望他能看懂我的意思。",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATstoryquest7",
+                        "questname": "（支）线下调查",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATstoryquest9",
+                        "questname": "（支）决裂",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": [
+                    {
+                        "itemid": "chao",
+                        "itemname": "哥谭噩梦",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ]
+            }
+        },
+        "ATstoryquest9": {
+            "ID": "ATstoryquest9",
+            "Name": "（支）决裂",
+            "Description": "要帮忙安装mod服务的兄弟们，联系管理，安装服务的费用是:远程安装游戏本体38，基础基本mod:58，带客户端mod，特色MOD:128。主播同款完全体mod加后续更新权限:258，这些mod来源是论坛正规来源下载，我们仅提供安装服务。\n so...这算不算摊牌了？合着我们不生产水，我们只是水的搬运工是吧。还有仅提供安装服务，然后还分不同价位是吧？这TM的不就是明码标价了？得，猛男军火库正式解除跟这位主播的合作，顺便送给他最大的鄙视",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATstoryquest8",
+                        "questname": "（支）劝诫",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATstoryquest10",
+                        "questname": "（支.无法完成）郑重声明",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": [
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "fuck",
+                        "itemname": "你已触发彩蛋",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ]
+            }
+        },
+        "ATstoryquest10": {
+            "ID": "ATstoryquest10",
+            "Name": "（支.无法完成）郑重声明",
+            "Description": "我是AT，本mod的作者，再次郑重声明：猛男军火库mod完全免费，如果你是通过花钱购买所谓mod整合包或者从其他电商平台上花钱购买的，那么恭喜你交了智商税，适配AKI的最新版本将在QQ群929620440发布，当内容积攒到一定程度会在oddba论坛跟9dm论坛发布",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATstoryquest9",
+                        "questname": "（支）决裂",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [],
+                "Leave": []
+            }
+        },
+        "ATmainquest4": {
+            "ID": "ATmainquest4",
+            "Name": "（主）万恶之源",
+            "Description": "你问我为啥放着港区不管跑这边来干嘛（AT的眼神失去了光芒）.......跟我去塔科夫走走吧，路上我跟你慢慢说，对了，拿着这个。难得有人听我发牢骚。",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest3",
+                        "questname": "（主）故友重逢",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest5",
+                        "questname": "（主）古神体质？！",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest5": {
+            "ID": "ATmainquest5",
+            "Name": "（主）古神体质？！",
+            "Description": "咱没事的，不就是被手雷炸了吗，我现在好得很。你要来看一下也没事，不如说现在真好有份美差，顺便我能给你介绍下咱的好兄弟",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest4",
+                        "questname": "（主）万恶之源",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest6",
+                        "questname": "（主）迎着舒爽的海风",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "57514643245977207f2c2d09",
+                        "itemname": "塔可乐",
+                        "questitem": false,
+                        "onlyfindinraid": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest6": {
+            "ID": "ATmainquest6",
+            "Name": "（主）迎着舒爽的海风",
+            "Description": "介绍下，这位是萱苏，猛男军火库的首席技术工程师，负责把我在其他地方征战时所使用的武器复刻出来，这不，咱以前在CELL公司当佣兵时用过的台风就这么给整出来了。但由于是崭新出炉的所以没做过测试，打靶子不能说明什么，实战才能证明一切，所以咱这不是需要个壮丁帮点小忙不是吗OvO",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest5",
+                        "questname": "（主）古神体质？！",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest7",
+                        "questname": "（主）龙卷风摧毁停车场",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest7": {
+            "ID": "ATmainquest7",
+            "Name": "（主）龙卷风摧毁停车场",
+            "Description": "怎么样，海风使着还顺手不？是这样的，前段时间我让galo们负责把军火库闲置的仓库修饰一下，结果这些10块一斤的坑货直接把工厂的锤哥引过来，这他娘的是一顿乱砸。碰巧萱苏最近闭关复刻一把新的武器，风男休息去召唤师峡谷继续哈萨ki。赔本的买卖咱不干啊，所以是时候给点教训了，顺便你也应该没爽够吧。",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest6",
+                        "questname": "（主）迎着舒爽的海风",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest8",
+                        "questname": "（主）来自星星的你",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest8": {
+            "ID": "ATmainquest8",
+            "Name": "（主）来自星星的你",
+            "Description": "我觉得塔科夫的晚上太无聊了，所以我给钢板加上了荧光涂层，你问我为啥鼻梁骨碎了.........额，这就不解释了，心情不好，跟我一起去撸几名SCAV发泄一下，顺便一提，咱猛男军火库跟提瓦特的往生堂达成合作协议了，咱只管打，没死的我派galo回收，死透的就当给胡堂主提供生意了（话说真的不是故意不救的？）",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest7",
+                        "questname": "（主）龙卷风摧毁停车场",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest9",
+                        "questname": "（主）绝地武士",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "5a38e6bac4a2826c6e06d79b",
+                        "itemname": "TOZ-106 20铅径 栓动霰弹枪",
+                        "questitem": false,
+                        "count": "3"
+                    },
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest9": {
+            "ID": "ATmainquest9",
+            "Name": "（主）绝地武士",
+            "Description": "嘶......来，你也看看，没想到咱俩出门逛gai的时候有老鼠溜了进来。这兜帽大衣还有这纹身，加上标志性的双头刀，看来是塔科夫境内那些邪教徒，居然连热成像摄像头都发现不了，有备而来啊，幸好被摸鱼的galo发现才没造成什么损失，不过他们的目的是什么？",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest8",
+                        "questname": "（主）来自星星的你",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest10",
+                        "questname": "（主）材料收集",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "5fc64ea372b0dd78d51159dc",
+                        "itemname": "邪教徒的刀",
+                        "questitem": false,
+                        "count": "3"
+                    },
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest10": {
+            "ID": "ATmainquest10",
+            "Name": "（主）材料收集",
+            "Description": "咱把军火库的安全保障设备全面升级了下，这下就不用担心再有老六混进来了。然后就是需要一些替换件，老兄你对塔科夫比我熟悉，帮忙去弄一下这四样东西咋样？顺便说一句咱们军火库又有新的东西了，这次的武器一定非常劲爆！",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest9",
+                        "questname": "（主）绝地武士",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest11",
+                        "questname": "（主）对枪吗？我高斯",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest11": {
+            "ID": "ATmainquest11",
+            "Name": "（主）对枪吗？我高斯",
+            "Description": "这就是高斯步枪，当初我在cell兼职前在漂亮国的暴龙小队分队呆过，这东西当时打外星章鱼简直不要太爽，不过咱们能力有限也只能复刻到这种地步，但别小看了它，被他打中，就算是前段时间海岸线的蓝色动力盔甲也得乖乖躺下。",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest10",
+                        "questname": "（主）材料收集",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest12",
+                        "questname": "（主）赞美太阳！！！",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest12": {
+            "ID": "ATmainquest12",
+            "Name": "（主）赞美太阳！！！",
+            "Description": "还记得前段时间那些邪教徒不，近期galo回收的PMC里面大部分都是被它们打伤的。而且据PMC说邪教徒会使用一种带毒的激光剑，看来上次还是让激光剑的图纸泄露了，具体情况我会去问问萱苏，然后老兄带上这个，这些黑暗中的混蛋是时候见识下太阳神的威力了，顺便小心，这个东西范围有那么一点点大，使用不当自己也会被闪到",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest11",
+                        "questname": "（主）对枪吗？我高斯",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest13",
+                        "questname": "（主）因为刮痧所以全点穿透力了",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest13": {
+            "ID": "ATmainquest13",
+            "Name": "（主）因为刮痧所以全点穿透力了",
+            "Description": "据galo发来的消息得知它们被一个穿着阿迪服戴着有白色竖纹的头盔给滑铲了，有这些特征的只有那个时髦的男人了，正好咱们技术工程师萱苏老兄也把这个东西给复刻完毕了。来，带上这个去把那个时髦的男人给射一顿，支援调查的galo们",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest12",
+                        "questname": "（主）赞美太阳！！！",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest14": {
+            "ID": "ATmainquest14",
+            "Name": "（主）一级警戒",
+            "Description": "赶紧来军火库一趟，有要紧事商量！！！！！",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest13",
+                        "questname": "（主）因为刮痧所以全点穿透力了",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATmainquest15",
+                        "questname": "（主）港区战利品？？？？",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATweaponquest01",
+                        "questname": "（武器）走地鸡的最爱-平行步枪",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATweaponquest02",
+                        "questname": "（武器）焯！-哥谭噩梦",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATweaponquest03",
+                        "questname": "（装备）AT的本命-岛风舰装",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATweaponquest04",
+                        "questname": "（装备）AT的本命-岛风大正淑女舰装",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATweaponquest05",
+                        "questname": "（武器）一刀一个-狼的末路",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATweaponquest06",
+                        "questname": "（装备）天降正义-竹蜻蜓",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATweaponquest07",
+                        "questname": "（休闲）舞蹈-广寒宫",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATweaponquest08",
+                        "questname": "（装备）装备测试-地狱猛男装甲",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATweaponquest10",
+                        "questname": "（整活）修复-A屏障",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATweaponquest11",
+                        "questname": "（武器）重火力支援-集束飞弹",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    },
+                    {
+                        "questid": "ATweaponquest13",
+                        "questname": "（武器）A盾喷火？-喷火轻机枪",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATmainquest15": {
+            "ID": "ATmainquest15",
+            "Name": "（主）港区战利品？？？？",
+            "Description": "想起来我可以帮你把裤裆升级一下。这样吧，港区那边我都会时不时去截胡深海舰队的补给部队搞点战利品，然后发现这个东西在塔科夫里面能塞的下不少东西，而且不会因为你的倒下而被别人弄走，但我数量也不多，也就那么个位数。所以帮我从各个地区的头头上面扒那么点装备来换换咋样，当然了，你就负责把他们打倒，装备的事情我会派galo去弄",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest01": {
+            "ID": "ATweaponquest01",
+            "Name": "（武器）走地鸡的最爱-平行步枪",
+            "Description": "VK47，也被称为平行步枪，有着不输于AK的杀伤力但却拥有远比AK优秀的后座手感，口径为7.62，专属子弹为碎甲弹，能对护甲造成大量伤害，如果你缺钱打算回收护甲来卖的话不建议你用专属子弹去打",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest02": {
+            "ID": "ATweaponquest02",
+            "Name": "（武器）焯！-哥谭噩梦",
+            "Description": "我好不容易心动一次，你却让我输的这么彻底。窝.......焯！！！！",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest03": {
+            "ID": "ATweaponquest03",
+            "Name": "（装备）AT的本命-岛风舰装",
+            "Description": "欧耶！！！！！！咱萱苏大佬就是NB，哈哈，咱也能装备上舰装去塔科夫火拼了",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest04": {
+            "ID": "ATweaponquest04",
+            "Name": "（装备）AT的本命-岛风大正淑女舰装",
+            "Description": "欧耶！！！！！！咱萱苏大佬就是NB，哈哈，咱也能装备上舰装去塔科夫火拼了",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest05": {
+            "ID": "ATweaponquest05",
+            "Name": "（武器）一刀一个-狼的末路",
+            "Description": "这把剑来自提瓦特大陆，花了我10个相遇之缘，后果就是我可莉池子歪了",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest06": {
+            "ID": "ATweaponquest06",
+            "Name": "（装备）天降正义-竹蜻蜓",
+            "Description": "这是竹蜻蜓，是我从一个蓝色的胖子那里借来的，研究一阵子之后就复刻出了这个东西，建议你搭配猛男催化剂还有止疼药使用，不然你会飞的很难受的",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest07": {
+            "ID": "ATweaponquest07",
+            "Name": "（休闲）舞蹈-广寒宫",
+            "Description": "打打杀杀这么久是不是也累了，来吧，跟我一起看看舞蹈放松一下吧。",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "dance",
+                        "itemname": "舞蹈-广寒宫",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest08": {
+            "ID": "ATweaponquest08",
+            "Name": "（装备）装备测试-地狱猛男装甲",
+            "Description": "记得有段时间我在格里芬当过代理指挥官，不过指挥作战的士兵都是些战术人形，而且部分战术人形的外貌是真的戳我操作系统，尤其是G41，所以我就整了这个东西，虽然技术不是很成熟但防护能力还是可以的",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATweaponquest09",
+                        "questname": "（休闲）燃烧心灵-大哥的战斗记录",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "hunkarmor",
+                        "itemname": "猛男装甲",
+                        "questitem": false,
+                        "count": "1"
+                    },
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest09": {
+            "ID": "ATweaponquest09",
+            "Name": "（休闲）燃烧心灵-大哥的战斗记录",
+            "Description": "我看你藏身处的电视机是不是来来回回也就放那一段短视频？你那枯燥的电视还是卖我算了，我给你几个新的电视机，每一个都有不同的片段，而且我也把相应的修改教程给你了，你甚至能看一些不可描述的东西",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATweaponquest08",
+                        "questname": "（装备）装备测试-地狱猛男装甲",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest10": {
+            "ID": "ATweaponquest10",
+            "Name": "（整活）修复-A屏障",
+            "Description": "记得我在布里斯克手下还是铁驭的时候就喜欢用这个东西，A屏障，能防御正面的炮火冲击还能强化火力，跟SMR配合起来能跟泰坦这种大家伙对刚，但遗憾的是现在就是一个装饰品了，不过我听说海关有个技术人员可以修复它，所以麻烦你把它放到指定地点，如果真的能成功的话那我们对抗幕后BOSS就多了一份保障了",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": [
+                    {
+                        "itemid": "adun",
+                        "itemname": "A屏障",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ]
+            }
+        },
+        "ATweaponquest11": {
+            "ID": "ATweaponquest11",
+            "Name": "（武器）重火力支援-集束飞弹",
+            "Description": "谁说塔科夫没有火箭筒？今天咱猛男军火库就让你玩到火箭筒，不仅如此咱们还研究出了集束飞弹，一发更比多发强，不过这个东西要是连射的话可是比海风还要掉帧的存在",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": [
+                    {
+                        "questid": "ATweaponquest12",
+                        "questname": "（武器）无赖战士-猛男机炮",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ]
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest12": {
+            "ID": "ATweaponquest12",
+            "Name": "（武器）无赖战士-猛男机炮",
+            "Description": "礼赞加特林菩萨,行深般若蜜多时，执六管子，化无上圣器。一管一音，六字明咒，无等等之咒，咒曰;噫嘛呢叭咪件。慈心如海，普渡众生,远婆娑世界，消五聚之业,出六道轮回，离八苦之灾,无苦集灭道，往西方极乐。六管一息三兆六万转,普渡众生未尝歇。伟哉，加特林菩萨;大哉,加特林菩萨。加特林菩提萨堙摩诃萨。",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATweaponquest11",
+                        "questname": "（武器）重火力支援-集束飞弹",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
+        "ATweaponquest13": {
+            "ID": "ATweaponquest13",
+            "Name": "（武器）A盾喷火？-喷火轻机枪",
+            "Description": "反正我也不知道这把枪干嘛叫喷火枪，反正不能拿来烧烤就对了，不过火力不错，弹道也稳，是我在布里格斯手下打工的时候第二喜欢的武器，一般跟A盾配合起来爽的一批，但是会被其他人捏雷警告顺便蹲起，不过在塔科夫可是没有这些规则，反正打就对了，而且我还给喷火加装了消音器，这东西开火声音还是带感的",
+            "TraderID": "AT",
+            "TraderName": "AT",
+            "Start": {
+                "Level": 0,
+                "PreQuest": [
+                    {
+                        "questid": "ATmainquest14",
+                        "questname": "（主）一级警戒",
+                        "questtraderid": "AT",
+                        "questtradername": "AT"
+                    }
+                ],
+                "UnlockQuest": []
+            },
+            "Finish": {
+                "Handover": [
+                    {
+                        "itemid": "machocard",
+                        "itemname": "猛男军火库钥匙卡",
+                        "questitem": false,
+                        "count": "1"
+                    }
+                ],
+                "Leave": []
+            }
+        },
         "testquest1": {
             "ID": "testquest1",
             "Name": "Test Quest - 1",
@@ -14772,6 +16809,14 @@
                     "questtradername": "Skier",
                     "onlyfindinraid": true,
                     "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest8",
+                    "questname": "（主）来自星星的你",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "3",
                     "types": "Handover"
                 }
             ]
@@ -18319,6 +20364,14 @@
                     "onlyfindinraid": true,
                     "count": "12",
                     "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest9",
+                    "questname": "（主）绝地武士",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "3",
+                    "types": "Handover"
                 }
             ]
         },
@@ -18400,6 +20453,14 @@
                     "questtradername": "Ragman",
                     "onlyfindinraid": true,
                     "count": "10",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATstoryquest0",
+                    "questname": "（支）我有故事，你有酒吗",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
                     "types": "Handover"
                 },
                 {
@@ -18587,6 +20648,15 @@
                     "questtradername": "Fence",
                     "onlyfindinraid": true,
                     "count": "3",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest5",
+                    "questname": "（主）古神体质？！",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "onlyfindinraid": false,
+                    "count": "1",
                     "types": "Handover"
                 },
                 {
@@ -19608,6 +21678,551 @@
                     "onlyfindinraid": false,
                     "count": "1",
                     "types": "Handover"
+                }
+            ]
+        },
+        "hunkbasemod": {
+            "ID": "hunkbasemod",
+            "Name": "生物识别卡",
+            "QuestItem": false,
+            "QuestList": [
+                {
+                    "questid": "ATmainquest0",
+                    "questname": "猛男军火库介绍",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATstoryquest1",
+                    "questname": "（支）合作邀请",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                }
+            ]
+        },
+        "machocard": {
+            "ID": "machocard",
+            "Name": "猛男军火库钥匙卡",
+            "QuestItem": false,
+            "QuestList": [
+                {
+                    "questid": "ATmainquest1",
+                    "questname": "（主）苏醒",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest2",
+                    "questname": "（主）考验",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest3",
+                    "questname": "（主）故友重逢",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATsidequest3",
+                    "questname": "电脑城的委托？（联动kmyuhkyuk）",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATstoryquest1",
+                    "questname": "（支）合作邀请",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATmainquest4",
+                    "questname": "（主）万恶之源",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest5",
+                    "questname": "（主）古神体质？！",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest6",
+                    "questname": "（主）迎着舒爽的海风",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest7",
+                    "questname": "（主）龙卷风摧毁停车场",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest8",
+                    "questname": "（主）来自星星的你",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest9",
+                    "questname": "（主）绝地武士",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest10",
+                    "questname": "（主）材料收集",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest11",
+                    "questname": "（主）对枪吗？我高斯",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest12",
+                    "questname": "（主）赞美太阳！！！",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest13",
+                    "questname": "（主）因为刮痧所以全点穿透力了",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest14",
+                    "questname": "（主）一级警戒",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATmainquest15",
+                    "questname": "（主）港区战利品？？？？",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest01",
+                    "questname": "（武器）走地鸡的最爱-平行步枪",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest02",
+                    "questname": "（武器）焯！-哥谭噩梦",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest03",
+                    "questname": "（装备）AT的本命-岛风舰装",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest04",
+                    "questname": "（装备）AT的本命-岛风大正淑女舰装",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest05",
+                    "questname": "（武器）一刀一个-狼的末路",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest06",
+                    "questname": "（装备）天降正义-竹蜻蜓",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest07",
+                    "questname": "（休闲）舞蹈-广寒宫",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest08",
+                    "questname": "（装备）装备测试-地狱猛男装甲",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest09",
+                    "questname": "（休闲）燃烧心灵-大哥的战斗记录",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest10",
+                    "questname": "（整活）修复-A屏障",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest11",
+                    "questname": "（武器）重火力支援-集束飞弹",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest12",
+                    "questname": "（武器）无赖战士-猛男机炮",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                },
+                {
+                    "questid": "ATweaponquest13",
+                    "questname": "（武器）A盾喷火？-喷火轻机枪",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                }
+            ]
+        },
+        "GPUNVIDIAGEFORCERTX30901": {
+            "ID": "GPUNVIDIAGEFORCERTX30901",
+            "QuestList": [
+                {
+                    "questid": "ATspecialquest2",
+                    "questname": "二次机会",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                }
+            ]
+        },
+        "5ac66d9b5acfc4001633997a": {
+            "ID": "5ac66d9b5acfc4001633997a",
+            "Name": "AK-105 5.45x39 突击步枪",
+            "QuestItem": false,
+            "QuestList": [
+                {
+                    "questid": "ATsidequest3",
+                    "questname": "电脑城的委托？（联动kmyuhkyuk）",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                }
+            ]
+        },
+        "5c46fbd72e2216398b5a8c9c": {
+            "ID": "5c46fbd72e2216398b5a8c9c",
+            "Name": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+            "QuestItem": false,
+            "QuestList": [
+                {
+                    "questid": "ATsidequest3",
+                    "questname": "电脑城的委托？（联动kmyuhkyuk）",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                }
+            ]
+        },
+        "5c0e_41586f7747fa54205c9": {
+            "ID": "5c0e_41586f7747fa54205c9",
+            "QuestList": [
+                {
+                    "questid": "ATnavyquest1",
+                    "questname": "新势力？",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "onlyfindinraid": true,
+                    "count": "1",
+                    "types": "Handover"
+                }
+            ]
+        },
+        "lasersword": {
+            "ID": "lasersword",
+            "Name": "激光剑",
+            "QuestItem": false,
+            "QuestList": [
+                {
+                    "questid": "ATstoryquest3",
+                    "questname": "（支）精益求精",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                }
+            ]
+        },
+        "dance": {
+            "ID": "dance",
+            "Name": "舞蹈-广寒宫",
+            "QuestItem": false,
+            "QuestList": [
+                {
+                    "questid": "ATstoryquest6",
+                    "questname": "（支）二次机会",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATweaponquest07",
+                    "questname": "（休闲）舞蹈-广寒宫",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                }
+            ]
+        },
+        "chao": {
+            "ID": "chao",
+            "Name": "哥谭噩梦",
+            "QuestItem": false,
+            "QuestList": [
+                {
+                    "questid": "ATstoryquest8",
+                    "questname": "（支）劝诫",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                }
+            ]
+        },
+        "fuck": {
+            "ID": "fuck",
+            "Name": "你已触发彩蛋",
+            "QuestItem": false,
+            "QuestList": [
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                },
+                {
+                    "questid": "ATstoryquest9",
+                    "questname": "（支）决裂",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
+                }
+            ]
+        },
+        "hunkarmor": {
+            "ID": "hunkarmor",
+            "Name": "猛男装甲",
+            "QuestItem": false,
+            "QuestList": [
+                {
+                    "questid": "ATweaponquest08",
+                    "questname": "（装备）装备测试-地狱猛男装甲",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Handover"
+                }
+            ]
+        },
+        "adun": {
+            "ID": "adun",
+            "Name": "A屏障",
+            "QuestItem": false,
+            "QuestList": [
+                {
+                    "questid": "ATweaponquest10",
+                    "questname": "（整活）修复-A屏障",
+                    "questtraderid": "AT",
+                    "questtradername": "AT",
+                    "count": "1",
+                    "types": "Leave"
                 }
             ]
         },

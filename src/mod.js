@@ -64,7 +64,10 @@ class Mod {
         Common.getAnnouncement(Common.Config.Main.Link.Announcement);
         Data.addItem();
         Data.addQuest();
-        //Data.addAssort("天使飞越那无尽宇宙");
+        Data.addAssort("天使飞越那无尽宇宙");
+        Data.addAssort("AT的钥匙卡");
+        //ClientDB.locations.tarkovstreets.looseLoot.spawnpointsForced = []
+        //ClientDB.locations.tarkovstreets.looseLoot.spawnpoints = []
         Data.addSpawn();
         const iconPath = `${ModPath}images/quests/`;
         const iconList = VFS.getFiles(iconPath);
@@ -126,8 +129,8 @@ class Mod {
         if (Config.Main.LoginTrigger == true) {
             Data.setItemData(PriceMap);
             Data.setQuestData();
-            Config.Main.LoginTrigger = false;
             Data.addQuest();
+            Config.Main.LoginTrigger = false;
         }
         const end = performance.now();
         Common.Notice(`所有数据初始化完毕！共耗时${Common.formatTime(end - start)}`);

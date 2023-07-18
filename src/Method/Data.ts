@@ -598,23 +598,23 @@ export class Data {
     }
     public addAssort(itemid) {
         const AssortData1 = this.common.DB.traders["54cb57776803fa99248b456e"].assort
-        if (this.common.Config.Main.DebugMode == true) {
-            AssortData1.items.push({
-                "_id": itemid,
-                "_tpl": itemid,
-                "parentId": "hideout",
-                "slotId": "hideout",
-                "upd": {
-                    "StackObjectsCount": 99999,
-                    "UnlimitedCount": true
-                }
-            })
-            AssortData1.barter_scheme[itemid] = [[{
-                count: 1,
-                _tpl: '5449016a4bdc2d6f028b456f'
-            }]]
-            AssortData1.loyal_level_items[itemid] = 1
-        }
+        //if (this.common.Config.Main.DebugMode == true) {
+        AssortData1.items.push({
+            "_id": itemid,
+            "_tpl": itemid,
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 99999,
+                "UnlimitedCount": true
+            }
+        })
+        AssortData1.barter_scheme[itemid] = [[{
+            count: 1,
+            _tpl: '5449016a4bdc2d6f028b456f'
+        }]]
+        AssortData1.loyal_level_items[itemid] = 1
+        //}
     }
     public addItem() {
         for (let it in this.common.ModDB.items) {
@@ -628,14 +628,25 @@ export class Data {
         const Forced = this.common.ModDB.itemspawn.Forced
         const DB = this.common.DB.locations
         DB.tarkovstreets.looseLoot.spawnpointsForced.push(Forced[0])
+        DB.tarkovstreets.looseLoot.spawnpointsForced.push(Forced[1])
     }
     public addQuest() {
         for (let qt in this.common.ModDB.achievement) {
             const Quest = this.common.ModDB.achievement[qt]
-            if (this.common.DB.traders["Persicaria"] != null) {
-                Quest.traderId = "Persicaria"
+            if (Quest.check == true) {
+                if (this.common.checkTrader(Quest.checkid) == true) {
+                    if (this.common.DB.traders["Persicaria"] != null) {
+                        Quest.traderId = "Persicaria"
+                    }
+                    this.common.DB.templates.quests[qt] = Quest
+                }
             }
-            this.common.DB.templates.quests[qt] = Quest
+            else{
+                if (this.common.DB.traders["Persicaria"] != null) {
+                    Quest.traderId = "Persicaria"
+                }
+                this.common.DB.templates.quests[qt] = Quest
+            }
         }
     }
 }
