@@ -144,7 +144,7 @@ export class Common {
                 result += chunk;
             });
             response.on('end', () => {
-                const responseVersion = result.trim();
+                const responseVersion = result.trim().substring(0, 5);
                 if (responseVersion !== version) {
                     //CustomLog(`Current version: ${currentVersion}. New version: ${responseVersion}. Mod Name: ${ModName}`);
                     this.Notice(`发现可用的新版本！`);

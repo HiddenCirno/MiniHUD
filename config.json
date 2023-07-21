@@ -21,7 +21,8 @@
             "MainQuestColor": "FFA500",
             "PreQuestColor": "FF6666",
             "UnlockQuestColor": "80E0FF",
-            "QuestLevelColor": "66FF66"
+            "QuestLevelColor": "66FF66",
+            "HideoutColor": "66FF66"
         },
         "Tag": {
             "TagLevel0": "[废品]",
@@ -74,9 +75,11 @@
             "Ammo": true,
             "Armor": true,
             "Quest": true,
+            "Hideout": true,
             "ShortNamePriceMode": false,
             "RagfairMode": false,
             "PriceSuggest": true,
+            "AutoExamine": true,
             "MainQuest": true,
             "NameReplace": true
         },

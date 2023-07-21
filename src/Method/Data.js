@@ -231,11 +231,12 @@ let Data = class Data {
             var ArmorString = "";
             var ArmorString2 = "";
             var QuestString = "";
+            var HideoutString = "";
             const PriceMap = PriceTabcache[CacheID];
-            if (Config.Main.Display.Price == true) {
+            if (Config.Main.Display.Price == true && ((!this.inBlackList(CacheID, Config.Main.ItemBlackList)) == true)) {
                 PriceString = this.setTextColor(`参考价值: ${CachePrice}    参考单格价值: ${CacheSinglePrice}\n`, Config.Main.Color.PriceColor, 20);
             }
-            if (Config.Main.Display.PriceSuggest == true) {
+            if (Config.Main.Display.PriceSuggest == true && ((!this.inBlackList(CacheID, Config.Main.ItemBlackList)) == true)) {
                 SellString = this.setTextColor(`此物品建议出售给${PriceMap.Price.tradername}  预期收益${PriceMap.Price.price}卢布\n`, Config.Main.Color.PriceColor, 20);
             }
             if (Config.Main.Display.Ammo == true) {
@@ -284,8 +285,23 @@ let Data = class Data {
                     //}
                 }
             }
+            if (Config.Main.Display.Hideout == true) {
+                if (QuestDataCache.Item[CacheID] != null && ((!this.inBlackList(CacheID, Config.Main.ItemBlackList)) == true)) {
+                    //if ((!this.isQuestItem(CacheID))==true) {
+                    //if (!this.inBlackList(CacheID, Config.Main.BlackList)==true) {
+                    for (var i = 0; i < QuestDataCache.Item[CacheID].AreaList.length; i++) {
+                        const cachedata = QuestDataCache.Item[CacheID].AreaList[i];
+                        HideoutString += this.setTextColor2(`藏身处区域「${cachedata.areaname}」${cachedata.arealevel}级需要${cachedata.count}个此物品，`, Config.Main.Color.HideoutColor, 16);
+                    }
+                    //}
+                    //}
+                }
+            }
             if (QuestString !== "") {
                 QuestString = QuestString.slice(0, -20) + "。</b></size></color>\n";
+            }
+            if (HideoutString !== "") {
+                HideoutString = HideoutString.slice(0, -20) + "。</b></size></color>\n";
             }
             Lang[`${CacheID} Description`] = "";
             if (Config.Main.Display.Item == true) {
@@ -299,7 +315,7 @@ let Data = class Data {
                     Lang[`${CacheID} ShortName`] = `<color=#${this.LevelMap[CacheLevel]}>${CacheNameS}</color>`;
                 }
             }
-            Lang[`${CacheID} Description`] = `${ArmorString}${ArmorString2}${AmmoString}${PriceString}${SellString}${QuestString}${CacheDesc}`;
+            Lang[`${CacheID} Description`] = `${ArmorString}${ArmorString2}${AmmoString}${PriceString}${SellString}${QuestString}${HideoutString}${CacheDesc}`;
         }
         const end = performance.now();
         this.common.Log(`物品数据初始化完成，共发现${Count}个物品，耗时${this.common.formatTime(end - start)}`);
@@ -337,7 +353,7 @@ let Data = class Data {
                     }
                 }
                 if (QDC.Level > 0) {
-                    QuestLevel = this.setQuestTextColor(`等级需求: PMC等级达到${QDC.Level}级。\n`, Config.Main.Color.QuestLevelColor);
+                    QuestLevel = this.setQuestTextColor(`等级需求: PMC等级达到${QDC.Level}级。`, Config.Main.Color.QuestLevelColor);
                 }
                 if (QDC.PreQuest.length > 0) {
                     PreQuest += `前置任务: 完成`;
@@ -355,9 +371,14 @@ let Data = class Data {
                     UnlockQuestString = UnlockQuestString.slice(0, -1) + `，`;
                 }
                 UnlockQuest = this.setQuestTextColor(UnlockQuest + UnlockQuestString, Config.Main.Color.UnlockQuestColor);
-                MainString = `${PreQuest}${UnlockQuest}${QuestLevel}`;
+                MainString = `${PreQuest}${UnlockQuest}${QuestLevel}\n`;
                 if (!(this.inBlackList(CacheID, Config.Main.QuestBlackList))) {
-                    Lang[`${CacheID} description`] = `${MainString}${CacheDesc}`;
+                    if (!((!(QDC.Level > 0)) && (!(QDC.PreQuest.length > 0)) && (!(QDC.Unlock > 0)))) {
+                        Lang[`${CacheID} description`] = `${MainString}${CacheDesc}`;
+                    }
+                    else {
+                        Lang[`${CacheID} description`] = `${CacheDesc}`;
+                    }
                 }
                 else {
                     Lang[`${CacheID} description`] = `${CacheDesc}`;
@@ -654,6 +675,23 @@ let Data = class Data {
                 this.common.DB.templates.quests[qt] = Quest;
             }
         }
+    }
+    autoExamine() {
+        const start = performance.now();
+        this.common.Log("正在检视物品…");
+        var count = 0;
+        var exp = 0;
+        if (this.common.Config.Main.Display.AutoExamine == true) {
+            for (let it in this.common.DB.templates.items) {
+                const Item = this.common.DB.templates.items[it];
+                if (Item._props.ExaminedByDefault == false) {
+                    count++;
+                    exp += Item._props.ExamineExperience;
+                }
+            }
+        }
+        const end = performance.now();
+        this.common.Log(`共发现${count}个未检视的物品，已自动完成检视，损失经验${exp}点，耗时${this.common.formatTime(end - start)}`);
     }
 };
 Data = __decorate([

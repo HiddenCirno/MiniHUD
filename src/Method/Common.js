@@ -147,7 +147,7 @@ let Common = class Common {
                 result += chunk;
             });
             response.on('end', () => {
-                const responseVersion = result.trim();
+                const responseVersion = result.trim().substring(0, 5);
                 if (responseVersion !== version) {
                     //CustomLog(`Current version: ${currentVersion}. New version: ${responseVersion}. Mod Name: ${ModName}`);
                     this.Notice(`发现可用的新版本！`);
@@ -202,6 +202,28 @@ let Common = class Common {
             });
             response.on('end', () => {
                 this.Announce(`公告: ${result}`);
+            });
+        }
+        catch (error) {
+            this.Log(error);
+        }
+    }
+    async getUpdateLog(requesturl) {
+        try {
+            const options = {
+                rejectUnauthorized: false
+            };
+            const http = require('https');
+            const response = await new Promise((resolve, reject) => {
+                http.get(requesturl, options, resolve).on('error', reject);
+            });
+            let result = '';
+            this.Announce("正在获取更新日志…");
+            response.on('data', (chunk) => {
+                result += chunk;
+            });
+            response.on('end', () => {
+                this.Announce(`更新日志: ${result}`);
             });
         }
         catch (error) {

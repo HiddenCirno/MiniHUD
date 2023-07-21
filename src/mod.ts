@@ -150,7 +150,7 @@ class Mod implements IPreAkiLoadMod {
             Cache.writeItemLocaleKeyCache();
             Cache.writeQuestLocaleKeyCache();
             Cache.writeTraderCache();
-            Cache.writrQuestDataCache();
+            Cache.writeQuestDataCache();
             Common.Log("正在建立价格映射…");
             Cache.writeItemPriceCache(PriceMap);
         }
@@ -158,6 +158,7 @@ class Mod implements IPreAkiLoadMod {
             Common.Log(`正在初始化数据…`)
         }
         if (Config.Main.LoginTrigger == true) {
+            Data.autoExamine();
             Data.setItemData(PriceMap);
             Data.setQuestData();
             Data.addQuest();

@@ -109,16 +109,19 @@ let Cache = class Cache {
         const end = performance.now();
         this.common.Log(`物品最优解计算完毕，共发现${Count}个物品，耗时${this.common.formatTime(end - start)}`);
     }
-    writrQuestDataCache() {
+    writeQuestDataCache() {
         const Quest = this.common.DB.templates.quests;
+        const Hideout = this.common.DB.hideout.areas;
         const start = performance.now();
         this.common.Log("正在构建任务数据…");
         const Count = this.common.countKeys(Quest);
         var QuestData = {
+            Hideout: {},
             Quest: {},
             Item: {}
         };
         const quest = QuestData.Quest;
+        const hideout = QuestData.Hideout;
         const Item = QuestData.Item;
         for (let qt in Quest) {
             const QT = Quest[qt];
@@ -151,6 +154,7 @@ let Cache = class Cache {
                             Item[QFinish["Handover"][i].itemid].Name = QFinish["Handover"][i].itemname;
                             Item[QFinish["Handover"][i].itemid].QuestItem = QFinish["Handover"][i].questitem;
                             Item[QFinish["Handover"][i].itemid].QuestList = [];
+                            Item[QFinish["Handover"][i].itemid].AreaList = [];
                             Item[QFinish["Handover"][i].itemid].QuestList.push({
                                 questid: QID,
                                 questname: QLocale.Name,
@@ -188,6 +192,7 @@ let Cache = class Cache {
                         Item[QFinish["Leave"][i].itemid].Name = QFinish["Leave"][i].itemname;
                         Item[QFinish["Leave"][i].itemid].QuestItem = QFinish["Leave"][i].questitem;
                         Item[QFinish["Leave"][i].itemid].QuestList = [];
+                        Item[QFinish["Leave"][i].itemid].AreaList = [];
                         Item[QFinish["Leave"][i].itemid].QuestList.push({
                             questid: QID,
                             questname: QLocale.Name,
@@ -242,9 +247,81 @@ let Cache = class Cache {
                 }
             }
         }
-        this.vfs.writeFile(`${this.common.ModPath}Cache/QuestDataCache.json`, JSON.stringify(QuestData, null, 4));
         const end = performance.now();
         this.common.Log(`任务数据构建完成，共发现${Count}个任务，耗时${this.common.formatTime(end - start)}`);
+        const start2 = performance.now();
+        this.common.Log("正在构建藏身处数据…");
+        for (var i = 0; i < Hideout.length; i++) {
+            const hideoutype = Hideout[i].type;
+            const hideoutname = this.common.DB.locales.global["ch"][`hideout_area_${hideoutype}_name`];
+            const area = Hideout[i].stages;
+            const hideoutid = Hideout[i]._id;
+            hideout[hideoutid] = {};
+            hideout[hideoutid].ID = hideoutid;
+            hideout[hideoutid].Name = hideoutname;
+            hideout[hideoutid].Type = hideoutype;
+            hideout[hideoutid].Level = [];
+            for (let lv in area) {
+                const req = area[lv].requirements;
+                var cachereq = [];
+                for (var j = 0; j < req.length; j++) {
+                    if (req[j].type == "Item") {
+                        //cachereq[req[j].templateId] = []
+                        cachereq.push({
+                            id: req[j].templateId,
+                            name: this.data.getItemName(req[j].templateId, "ch"),
+                            count: req[j].count
+                        });
+                    }
+                }
+                hideout[hideoutid].Level[parseInt(lv)] = {
+                    areaid: hideoutid,
+                    areaname: hideoutname,
+                    arealevel: parseInt(lv),
+                    arearequirement: cachereq
+                };
+            }
+        }
+        for (let area in hideout) {
+            const Area = hideout[area];
+            for (var i = 0; i < Area.Level.length; i++) {
+                const areaname = Area.Level[i].areaname;
+                const arealevel = Area.Level[i].arealevel;
+                const areareq = Area.Level[i].arearequirement;
+                if (areareq.length > 0) {
+                    for (var j = 0; j < areareq.length; j++) {
+                        const itemid = areareq[j].id;
+                        const itemname = areareq[j].name;
+                        const itemcount = areareq[j].count;
+                        if (Item[areareq[j].id] == null) {
+                            Item[itemid] = {};
+                            Item[itemid].ID = itemid;
+                            Item[itemid].Name = itemname;
+                            Item[itemid].QuestItem = false;
+                            Item[itemid].QuestList = [];
+                            Item[itemid].AreaList = [];
+                            Item[itemid].AreaList.push({
+                                areaname: areaname,
+                                arealevel: arealevel,
+                                count: itemcount
+                            });
+                        }
+                        else {
+                            Item[itemid].AreaList.push({
+                                areaname: areaname,
+                                arealevel: arealevel,
+                                count: itemcount
+                            });
+                        }
+                    }
+                }
+            }
+        }
+        const end2 = performance.now();
+        this.common.Log(`藏身处数据构建完成，耗时${this.common.formatTime(end2 - start2)}`);
+        this.vfs.writeFile(`${this.common.ModPath}Cache/QuestDataCache.json`, JSON.stringify(QuestData, null, 4));
+    }
+    writeHideoutCache() {
     }
 };
 Cache = __decorate([

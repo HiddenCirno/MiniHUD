@@ -17957,6 +17957,36 @@
         "ShortName": "Cloak",
         "Description": "Ghost Cloak."
     },
+    "Golden_Key_Pouch": {
+        "ID": "Golden_Key_Pouch",
+        "Name": "Secure Key Box",
+        "ShortName": "Key Box",
+        "Description": "Secure and compact storage for your Golden Keychains and Golden Keycard Holder, as well as some extra space for loose keys."
+    },
+    "Golden_Keychain1": {
+        "ID": "Golden_Keychain1",
+        "Name": "Golden Keychain Mk. I",
+        "ShortName": "Mk. I",
+        "Description": "One of 3 gold keychains. This one contains all Factory, Woods, Customs, Interchange, and Misc keys."
+    },
+    "Golden_Keychain2": {
+        "ID": "Golden_Keychain2",
+        "Name": "Golden Keychain Mk. II",
+        "ShortName": "Mk. II",
+        "Description": "One of 3 gold keychains. This one contains all Lighthouse and Shoreline keys."
+    },
+    "Golden_Keychain3": {
+        "ID": "Golden_Keychain3",
+        "Name": "Golden Keychain Mk. III",
+        "ShortName": "Mk. III",
+        "Description": "One of 3 gold keychains. This one contains all Streets, Reserve, and Labs keys."
+    },
+    "Golden_Keycard_Case": {
+        "ID": "Golden_Keycard_Case",
+        "Name": "Golden Keycard Holder",
+        "ShortName": "Keycards",
+        "Description": "A shiny keycard case that can hold every keycard in the game, including a few Labs Access cards."
+    },
     "单倍方镜": {
         "ID": "单倍方镜",
         "Name": "单倍全息衍射式瞄准镜“经典”",

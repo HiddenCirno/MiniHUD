@@ -62,10 +62,11 @@ class Mod {
         const ELocale = ClientDB.locales.global["en"];
         Common.checkUpdate(Common.Config.Main.Link.Update, Common.Config.Main.Link.Download, Common.Config.Main.Link.Github, Common.Config.Main.Link.Gitee);
         Common.getAnnouncement(Common.Config.Main.Link.Announcement);
+        Common.getUpdateLog(Common.Config.Main.Link.UpdateLog);
         Data.addItem();
         Data.addQuest();
-        Data.addAssort("天使飞越那无尽宇宙");
-        Data.addAssort("AT的钥匙卡");
+        //Data.addAssort("天使飞越那无尽宇宙");
+        //Data.addAssort("AT的钥匙卡");
         //ClientDB.locations.tarkovstreets.looseLoot.spawnpointsForced = []
         //ClientDB.locations.tarkovstreets.looseLoot.spawnpoints = []
         Data.addSpawn();
@@ -119,7 +120,7 @@ class Mod {
             Cache.writeItemLocaleKeyCache();
             Cache.writeQuestLocaleKeyCache();
             Cache.writeTraderCache();
-            Cache.writrQuestDataCache();
+            Cache.writeQuestDataCache();
             Common.Log("正在建立价格映射…");
             Cache.writeItemPriceCache(PriceMap);
         }
@@ -127,6 +128,7 @@ class Mod {
             Common.Log(`正在初始化数据…`);
         }
         if (Config.Main.LoginTrigger == true) {
+            Data.autoExamine();
             Data.setItemData(PriceMap);
             Data.setQuestData();
             Data.addQuest();

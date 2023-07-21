@@ -26936,6 +26936,51 @@
             "price": 10000
         }
     },
+    "Golden_Key_Pouch": {
+        "ID": "Golden_Key_Pouch",
+        "Name": "Secure Key Box",
+        "Price": {
+            "traderid": "54cb50c76803fa8b248b4571",
+            "tradername": "Prapor",
+            "price": 0
+        }
+    },
+    "Golden_Keychain1": {
+        "ID": "Golden_Keychain1",
+        "Name": "Golden Keychain Mk. I",
+        "Price": {
+            "traderid": "54cb50c76803fa8b248b4571",
+            "tradername": "Prapor",
+            "price": 0
+        }
+    },
+    "Golden_Keychain2": {
+        "ID": "Golden_Keychain2",
+        "Name": "Golden Keychain Mk. II",
+        "Price": {
+            "traderid": "54cb50c76803fa8b248b4571",
+            "tradername": "Prapor",
+            "price": 0
+        }
+    },
+    "Golden_Keychain3": {
+        "ID": "Golden_Keychain3",
+        "Name": "Golden Keychain Mk. III",
+        "Price": {
+            "traderid": "54cb50c76803fa8b248b4571",
+            "tradername": "Prapor",
+            "price": 0
+        }
+    },
+    "Golden_Keycard_Case": {
+        "ID": "Golden_Keycard_Case",
+        "Name": "Golden Keycard Holder",
+        "Price": {
+            "traderid": "54cb50c76803fa8b248b4571",
+            "tradername": "Prapor",
+            "price": 0
+        }
+    },
     "单倍方镜": {
         "ID": "单倍方镜",
         "Name": "单倍全息衍射式瞄准镜“经典”",
