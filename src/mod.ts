@@ -18,6 +18,11 @@ import { Traders } from "@spt-aki/models/enums/Traders";
 import { QuestStatus } from "@spt-aki/models/enums/QuestStatus";
 import { MessageType } from "@spt-aki/models/enums/MessageType";
 import { HashUtil } from "@spt-aki/utils/HashUtil";
+import { RagfairSort } from "@spt-aki/models/enums/RagfairSort"
+import { RagfairSortHelper } from "@spt-aki/helpers/RagfairSortHelper";
+import { RagfairController } from "@spt-aki/controllers/RagfairController";
+import { IGetItemPriceResult } from "@spt-aki/models/eft/ragfair/IGetItemPriceResult";
+import { IGetMarketPriceRequestData } from "@spt-aki/models/eft/ragfair/IGetMarketPriceRequestData";
 import { VFS } from "@spt-aki/utils/VFS"
 import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
 import { NotificationSendHelper } from "@spt-aki/helpers/NotificationSendHelper";
@@ -37,6 +42,7 @@ class Mod implements IPreAkiLoadMod {
         const preAkiModLoader = container.resolve("PreAkiModLoader");
         const staticRouterModService = container.resolve<StaticRouterModService>("StaticRouterModService");
         const imageRouter = container.resolve<ImageRouter>("ImageRouter")
+        const ragfairController = container.resolve("RagfairController");
         container.register<Common>("Common", Common, { lifecycle: Lifecycle.Singleton });
         container.register<Data>("Data", Data, { lifecycle: Lifecycle.Singleton });
         container.register<Cache>("Cache", Cache, { lifecycle: Lifecycle.Singleton });
@@ -56,6 +62,14 @@ class Mod implements IPreAkiLoadMod {
             ],
             "aki"
         );
+        //重写方法
+        container.afterResolution("RagfairController", (_t, result: RagfairController) => {
+            // We want to replace the original method logic with something different
+            result.getItemMinAvgMaxFleaPriceValues = (getPriceRequest: IGetMarketPriceRequestData) => {
+                return this.getItemMinAvgMaxFleaPriceValues(getPriceRequest);
+            }
+            // The modifier Always makes sure this replacement method is ALWAYS replaced
+        }, { frequency: "Always" });
     }
     public postAkiLoad(container: DependencyContainer): void {
         const Logger = container.resolve<ILogger>("WinstonLogger");
@@ -166,6 +180,58 @@ class Mod implements IPreAkiLoadMod {
         }
         const end = performance.now()
         Common.Notice(`所有数据初始化完毕！共耗时${Common.formatTime(end - start)}`)
+    }
+    public getItemMinAvgMaxFleaPriceValues(getPriceRequest: IGetMarketPriceRequestData): IGetItemPriceResult {
+        // Get all items of tpl (sort by price)
+        const ragfairController = Mod.container.resolve<RagfairController>("RagfairController")
+        const FuncDatabaseServer = Mod.container.resolve<DatabaseServer>("DatabaseServer");
+        const ragfairSortHelper = Mod.container.resolve<RagfairSortHelper>("RagfairSortHelper");
+        //const ragfairSort = Mod.container.resolve<RagfairSort>("RagfairSort");
+        const JsonUtil = Mod.container.resolve<JsonUtil>("JsonUtil");
+        const logger = Mod.container.resolve<ILogger>("WinstonLogger");
+        let offers = ragfairController.ragfairOfferService.getOffersOfType(getPriceRequest.templateId);
+
+        // Offers exist for item, get averages of what's listed
+        if (typeof (offers) === "object" && offers.length > 0) {
+            offers = ragfairController.ragfairSortHelper.sortOffers(offers, RagfairSort.PRICE);
+            //logger.info(JSON.stringify(offers, null, 4))
+            const min = offers[0].requirementsCost; // Get first item from array as its pre-sorted
+            const max = offers.at(-1).requirementsCost; // Get last item from array as its pre-sorted
+            //计算调和平均
+            //var count2 = 0
+            //var price3 = 0
+            //for(var i = 0; i < offers.length; i++){
+            //    count2 = i
+            //    var price1 = offers[i].requirementsCost
+            //    var price2 = 1/price1
+            //    price3 += price2
+            //}
+            var med = offers[Math.floor(offers.length / 2)].requirementsCost
+            //count2 = 0
+            //price3 = 0
+            //const med = offers[Math.trunc((offers.length / 2))].requirementsCost; // Get last item from array as its pre-sorted
+            return {
+                avg: med,
+                min: min,
+                max: max
+            };
+        }
+        else // No offers listed, get price from live ragfair price list prices.json
+        {
+            const templatesDb = FuncDatabaseServer.getTables().templates;
+
+            let tplPrice = templatesDb.prices[getPriceRequest.templateId];
+            if (!tplPrice) {
+                // No flea price, get handbook price
+                tplPrice = ragfairController.handbookHelper.getTemplatePrice(getPriceRequest.templateId);
+            }
+
+            return {
+                avg: tplPrice,
+                min: tplPrice,
+                max: tplPrice
+            };
+        }
     }
 }
 module.exports = { mod: new Mod() }

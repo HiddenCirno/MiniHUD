@@ -22,7 +22,7 @@ const RagfairController_1 = require("C:/snapshot/project/obj/controllers/Ragfair
 const JsonUtil_1 = require("C:/snapshot/project/obj/utils/JsonUtil");
 const VFS_1 = require("C:/snapshot/project/obj/utils/VFS");
 const Common_1 = require("./Common");
-let Data = class Data {
+let Data = exports.Data = class Data {
     constructor(logger, importUtil, databaseServer, ragfair, json, vfs, common) {
         this.logger = logger;
         this.importUtil = importUtil;
@@ -694,7 +694,7 @@ let Data = class Data {
         this.common.Log(`共发现${count}个未检视的物品，已自动完成检视，损失经验${exp}点，耗时${this.common.formatTime(end - start)}`);
     }
 };
-Data = __decorate([
+exports.Data = Data = __decorate([
     (0, tsyringe_1.injectable)(),
     __param(0, (0, tsyringe_1.inject)("WinstonLogger")),
     __param(1, (0, tsyringe_1.inject)("ImporterUtil")),
@@ -705,4 +705,3 @@ Data = __decorate([
     __param(6, (0, tsyringe_1.inject)("Common")),
     __metadata("design:paramtypes", [typeof (_a = typeof ILogger_1.ILogger !== "undefined" && ILogger_1.ILogger) === "function" ? _a : Object, typeof (_b = typeof ImporterUtil_1.ImporterUtil !== "undefined" && ImporterUtil_1.ImporterUtil) === "function" ? _b : Object, typeof (_c = typeof DatabaseServer_1.DatabaseServer !== "undefined" && DatabaseServer_1.DatabaseServer) === "function" ? _c : Object, typeof (_d = typeof RagfairController_1.RagfairController !== "undefined" && RagfairController_1.RagfairController) === "function" ? _d : Object, typeof (_e = typeof JsonUtil_1.JsonUtil !== "undefined" && JsonUtil_1.JsonUtil) === "function" ? _e : Object, typeof (_f = typeof VFS_1.VFS !== "undefined" && VFS_1.VFS) === "function" ? _f : Object, typeof (_g = typeof Common_1.Common !== "undefined" && Common_1.Common) === "function" ? _g : Object])
 ], Data);
-exports.Data = Data;

@@ -27,7 +27,7 @@ const ImporterUtil_1 = require("C:/snapshot/project/obj/utils/ImporterUtil");
 const JsonUtil_1 = require("C:/snapshot/project/obj/utils/JsonUtil");
 const VFS_1 = require("C:/snapshot/project/obj/utils/VFS");
 const PreAkiModLoader_1 = require("C:/snapshot/project/obj/loaders/PreAkiModLoader");
-let Common = class Common {
+let Common = exports.Common = class Common {
     constructor(logger, databaseServer, preLoader, json, imports, vfs) {
         this.logger = logger;
         this.databaseServer = databaseServer;
@@ -151,9 +151,9 @@ let Common = class Common {
                 if (responseVersion !== version) {
                     //CustomLog(`Current version: ${currentVersion}. New version: ${responseVersion}. Mod Name: ${ModName}`);
                     this.Notice(`发现可用的新版本！`);
-                    this.Log(`当前版本：${version}  最新版本：${responseVersion}`);
+                    this.Log(`当前版本: ${version}  最新版本: ${responseVersion}`);
                     this.Announce(`可从此链接下载新版本: ${downloadlink}`);
-                    this.Warn(`警告：你正在使用已经过期的版本！`);
+                    this.Warn(`警告: 你正在使用已经过期的版本！`);
                 }
                 else {
                     //CustomLog(`Current version (${currentVersion}) is up-to-date. Mod Name: ${ModName}`);
@@ -239,7 +239,7 @@ let Common = class Common {
         }
     }
 };
-Common = __decorate([
+exports.Common = Common = __decorate([
     (0, tsyringe_1.injectable)(),
     __param(0, (0, tsyringe_1.inject)("WinstonLogger")),
     __param(1, (0, tsyringe_1.inject)("DatabaseServer")),
@@ -249,4 +249,3 @@ Common = __decorate([
     __param(5, (0, tsyringe_1.inject)("VFS")),
     __metadata("design:paramtypes", [typeof (_a = typeof ILogger_1.ILogger !== "undefined" && ILogger_1.ILogger) === "function" ? _a : Object, typeof (_b = typeof DatabaseServer_1.DatabaseServer !== "undefined" && DatabaseServer_1.DatabaseServer) === "function" ? _b : Object, typeof (_c = typeof PreAkiModLoader_1.PreAkiModLoader !== "undefined" && PreAkiModLoader_1.PreAkiModLoader) === "function" ? _c : Object, typeof (_d = typeof JsonUtil_1.JsonUtil !== "undefined" && JsonUtil_1.JsonUtil) === "function" ? _d : Object, typeof (_e = typeof ImporterUtil_1.ImporterUtil !== "undefined" && ImporterUtil_1.ImporterUtil) === "function" ? _e : Object, typeof (_f = typeof VFS_1.VFS !== "undefined" && VFS_1.VFS) === "function" ? _f : Object])
 ], Common);
-exports.Common = Common;

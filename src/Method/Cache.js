@@ -18,7 +18,7 @@ const tsyringe_1 = require("C:/snapshot/project/node_modules/tsyringe");
 const VFS_1 = require("C:/snapshot/project/obj/utils/VFS");
 const Data_1 = require("./Data");
 const Common_1 = require("./Common");
-let Cache = class Cache {
+let Cache = exports.Cache = class Cache {
     constructor(vfs, data, common) {
         this.vfs = vfs;
         this.data = data;
@@ -324,11 +324,10 @@ let Cache = class Cache {
     writeHideoutCache() {
     }
 };
-Cache = __decorate([
+exports.Cache = Cache = __decorate([
     (0, tsyringe_1.injectable)(),
     __param(0, (0, tsyringe_1.inject)("VFS")),
     __param(1, (0, tsyringe_1.inject)("Data")),
     __param(2, (0, tsyringe_1.inject)("Common")),
     __metadata("design:paramtypes", [typeof (_a = typeof VFS_1.VFS !== "undefined" && VFS_1.VFS) === "function" ? _a : Object, typeof (_b = typeof Data_1.Data !== "undefined" && Data_1.Data) === "function" ? _b : Object, typeof (_c = typeof Common_1.Common !== "undefined" && Common_1.Common) === "function" ? _c : Object])
 ], Cache);
-exports.Cache = Cache;

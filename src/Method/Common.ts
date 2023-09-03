@@ -148,9 +148,9 @@ export class Common {
                 if (responseVersion !== version) {
                     //CustomLog(`Current version: ${currentVersion}. New version: ${responseVersion}. Mod Name: ${ModName}`);
                     this.Notice(`发现可用的新版本！`);
-                    this.Log(`当前版本：${version}  最新版本：${responseVersion}`);
+                    this.Log(`当前版本: ${version}  最新版本: ${responseVersion}`);
                     this.Announce(`可从此链接下载新版本: ${downloadlink}`);
-                    this.Warn(`警告：你正在使用已经过期的版本！`);
+                    this.Warn(`警告: 你正在使用已经过期的版本！`);
                 } else {
                     //CustomLog(`Current version (${currentVersion}) is up-to-date. Mod Name: ${ModName}`);
                     this.Log(`当前版本已是最新。`);

@@ -1,5 +1,5 @@
 
 欢迎加入官方群「往世乐土」，群号: 792787604
-注意: MiniHUD重置版目前正处于测试阶段，更新请下载Alpha版本，发现bug可私信我进行反馈或在github/gitee提交issue
+注意: MiniHUD重置版已经进入稳定版，发现bug可私信我进行反馈或在github/gitee提交issue
 提交bug请务必描述详细并附带服务端截图
 下载链接: https://pan.baidu.com/s/1aQWRLJ1Q5clI99b3qtPX9Q?pwd=MHWI
